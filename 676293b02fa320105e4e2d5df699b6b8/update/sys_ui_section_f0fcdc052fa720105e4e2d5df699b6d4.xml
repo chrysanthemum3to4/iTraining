@@ -1,100 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="回付情報2" section_id="f0fcdc052fa720105e4e2d5df699b6d4" sys_domain="global" table="x_550277_poc_train_kaitouyouken" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>kaitousya2</element>
+            <element>kaitousya_group_list_2</element>
             <position>0</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-04-14 07:46:21</sys_created_on>
-            <sys_id>983e90852fa720105e4e2d5df699b671</sys_id>
+            <sys_created_by>dev057221</sys_created_by>
+            <sys_created_on>2021-04-20 10:21:17</sys_created_on>
+            <sys_id>403bb3762fa720105e4e2d5df699b6d7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="回付情報2" display_value="回付情報2" name="x_550277_poc_train_kaitouyouken" sys_domain="global" view="Default view">f0fcdc052fa720105e4e2d5df699b6d4</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-04-14 07:46:21</sys_updated_on>
+            <sys_updated_by>dev057221</sys_updated_by>
+            <sys_updated_on>2021-04-20 10:21:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>kaitousya2</element>
+            <position>1</position>
+            <sys_created_by>dev057221</sys_created_by>
+            <sys_created_on>2021-04-20 10:21:17</sys_created_on>
+            <sys_id>c43bb3762fa720105e4e2d5df699b6d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="回付情報2" display_value="回付情報2" name="x_550277_poc_train_kaitouyouken" sys_domain="global" view="Default view">f0fcdc052fa720105e4e2d5df699b6d4</sys_ui_section>
+            <sys_updated_by>dev057221</sys_updated_by>
+            <sys_updated_on>2021-04-20 10:21:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-04-14 07:46:21</sys_created_on>
-            <sys_id>1c3e90852fa720105e4e2d5df699b671</sys_id>
+            <position>2</position>
+            <sys_created_by>dev057221</sys_created_by>
+            <sys_created_on>2021-04-20 10:21:17</sys_created_on>
+            <sys_id>483bb3762fa720105e4e2d5df699b6d7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="回付情報2" display_value="回付情報2" name="x_550277_poc_train_kaitouyouken" sys_domain="global" view="Default view">f0fcdc052fa720105e4e2d5df699b6d4</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-04-14 07:46:21</sys_updated_on>
+            <sys_updated_by>dev057221</sys_updated_by>
+            <sys_updated_on>2021-04-20 10:21:17</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>approval_flow2</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-04-14 07:46:21</sys_created_on>
-            <sys_id>9c3e90852fa720105e4e2d5df699b671</sys_id>
+            <position>3</position>
+            <sys_created_by>dev057221</sys_created_by>
+            <sys_created_on>2021-04-20 10:21:17</sys_created_on>
+            <sys_id>c83bb3762fa720105e4e2d5df699b6d7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="回付情報2" display_value="回付情報2" name="x_550277_poc_train_kaitouyouken" sys_domain="global" view="Default view">f0fcdc052fa720105e4e2d5df699b6d4</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-04-14 07:46:21</sys_updated_on>
+            <sys_updated_by>dev057221</sys_updated_by>
+            <sys_updated_on>2021-04-20 10:21:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>approver_2_1</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-04-14 07:46:21</sys_created_on>
-            <sys_id>103e90852fa720105e4e2d5df699b672</sys_id>
+            <position>4</position>
+            <sys_created_by>dev057221</sys_created_by>
+            <sys_created_on>2021-04-20 10:21:17</sys_created_on>
+            <sys_id>4c3bb3762fa720105e4e2d5df699b6d7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="回付情報2" display_value="回付情報2" name="x_550277_poc_train_kaitouyouken" sys_domain="global" view="Default view">f0fcdc052fa720105e4e2d5df699b6d4</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-04-14 07:46:21</sys_updated_on>
+            <sys_updated_by>dev057221</sys_updated_by>
+            <sys_updated_on>2021-04-20 10:21:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>approver_2_2</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-04-14 07:46:21</sys_created_on>
-            <sys_id>903e90852fa720105e4e2d5df699b672</sys_id>
+            <position>5</position>
+            <sys_created_by>dev057221</sys_created_by>
+            <sys_created_on>2021-04-20 10:21:17</sys_created_on>
+            <sys_id>cc3bb3762fa720105e4e2d5df699b6d7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="回付情報2" display_value="回付情報2" name="x_550277_poc_train_kaitouyouken" sys_domain="global" view="Default view">f0fcdc052fa720105e4e2d5df699b6d4</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-04-14 07:46:21</sys_updated_on>
+            <sys_updated_by>dev057221</sys_updated_by>
+            <sys_updated_on>2021-04-20 10:21:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>approver_2_3</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-04-14 07:46:21</sys_created_on>
-            <sys_id>143e90852fa720105e4e2d5df699b672</sys_id>
+            <position>6</position>
+            <sys_created_by>dev057221</sys_created_by>
+            <sys_created_on>2021-04-20 10:21:17</sys_created_on>
+            <sys_id>403bb3762fa720105e4e2d5df699b6d8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="回付情報2" display_value="回付情報2" name="x_550277_poc_train_kaitouyouken" sys_domain="global" view="Default view">f0fcdc052fa720105e4e2d5df699b6d4</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-04-14 07:46:21</sys_updated_on>
+            <sys_updated_by>dev057221</sys_updated_by>
+            <sys_updated_on>2021-04-20 10:21:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>approver_2_4</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-04-14 07:46:21</sys_created_on>
-            <sys_id>943e90852fa720105e4e2d5df699b672</sys_id>
+            <position>7</position>
+            <sys_created_by>dev057221</sys_created_by>
+            <sys_created_on>2021-04-20 10:21:17</sys_created_on>
+            <sys_id>c03bb3762fa720105e4e2d5df699b6d8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="回付情報2" display_value="回付情報2" name="x_550277_poc_train_kaitouyouken" sys_domain="global" view="Default view">f0fcdc052fa720105e4e2d5df699b6d4</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-04-14 07:46:21</sys_updated_on>
+            <sys_updated_by>dev057221</sys_updated_by>
+            <sys_updated_on>2021-04-20 10:21:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
