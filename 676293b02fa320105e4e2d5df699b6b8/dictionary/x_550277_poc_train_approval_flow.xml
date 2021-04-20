@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="承認フロー" max_length="40" name="x_550277_poc_train_approval_flow" sizeclass="0" type="collection">
+        <element display="true" label="承認フロー名" max_length="40" name="approval_flow_name" type="string"/>
+        <element label="一次承認者" max_length="32" name="approver_1" reference="sys_user" type="reference"/>
+        <element label="二次承認者" max_length="32" name="approver_2" reference="sys_user" type="reference"/>
+        <element label="三次承認者" max_length="32" name="approver_3" reference="sys_user" type="reference"/>
+        <element label="四次承認者" max_length="32" name="approver_4" reference="sys_user" type="reference"/>
+        <element label="番号" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="approver_1"/>
+        </index>
+        <index name="index2">
+            <element name="approver_4"/>
+        </index>
+        <index name="index3">
+            <element name="approver_2"/>
+        </index>
+        <index name="index4">
+            <element name="approver_3"/>
+        </index>
+    </element>
+</database>

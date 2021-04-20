@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_550277_poc_train_kaitou_task">x_550277_poc_train_kaitou_task</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>KAIT</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-15 05:34:41</sys_created_on>
+        <sys_id>2da9c5552fe320105e4e2d5df699b6b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KAIT</sys_name>
+        <sys_package display_value="poc_training" source="x_550277_poc_train">676293b02fa320105e4e2d5df699b6b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
+        <sys_update_name>sys_number_2da9c5552fe320105e4e2d5df699b6b6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-15 05:34:41</sys_updated_on>
+    </sys_number>
+</record_update>
