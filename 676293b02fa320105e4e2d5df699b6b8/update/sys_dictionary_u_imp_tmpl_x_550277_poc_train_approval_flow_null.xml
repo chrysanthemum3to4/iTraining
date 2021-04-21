@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="approval_flow_name" table="x_550277_poc_train_approval_flow">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="" extends="sys_import_set_row" table="u_imp_tmpl_x_550277_poc_train_approval_flow">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
         <attributes/>
         <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
+        <calculation/>
+        <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>承認フロー名</column_label>
+        <column_label/>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -22,20 +17,20 @@
         <delete_roles/>
         <dependent/>
         <dependent_on_field/>
-        <display>true</display>
+        <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>approval_flow_name</element>
+        <element/>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="文字列">string</internal_type>
-        <mandatory>true</mandatory>
+        <internal_type display_value="コレクション">collection</internal_type>
+        <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>x_550277_poc_train_approval_flow</name>
+        <name>u_imp_tmpl_x_550277_poc_train_approval_flow</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -52,16 +47,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>dev057221</sys_created_by>
-        <sys_created_on>2021-04-14 02:44:12</sys_created_on>
-        <sys_id>94c817382fa320105e4e2d5df699b6d8</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>承認フロー名</sys_name>
+        <sys_created_on>2021-04-21 09:15:51</sys_created_on>
+        <sys_id>9bc530d72fe720105e4e2d5df699b6e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_imp_tmpl_x_550277_poc_train_approval_flow</sys_name>
         <sys_package display_value="poc_training" source="x_550277_poc_train">676293b02fa320105e4e2d5df699b6b8</sys_package>
         <sys_policy/>
         <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
-        <sys_update_name>sys_dictionary_x_550277_poc_train_approval_flow_approval_flow_name</sys_update_name>
+        <sys_update_name>sys_dictionary_u_imp_tmpl_x_550277_poc_train_approval_flow_null</sys_update_name>
         <sys_updated_by>dev057221</sys_updated_by>
-        <sys_updated_on>2021-04-21 09:12:41</sys_updated_on>
+        <sys_updated_on>2021-04-21 09:15:51</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

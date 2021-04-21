@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Imp Tmpl X 550277 Poc Train Approval Flow" max_length="40" name="u_imp_tmpl_x_550277_poc_train_approval_flow" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Sys ID" label="Sys ID" max_length="40" name="u_sys_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="一次承認者" max_length="40" name="u_一次承認者" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="三次承認者" max_length="40" name="u_三次承認者" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="二次承認者" max_length="40" name="u_二次承認者" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="四次承認者" max_length="40" name="u_四次承認者" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="承認フロー名" max_length="40" name="u_承認フロー名" type="string"/>
+    </element>
+</database>
