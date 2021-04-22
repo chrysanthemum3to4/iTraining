@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="node_name" label="ノード名" language="en" table="x_550277_poc_train_approval_history">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>node_name</element>
+            <help/>
+            <hint/>
+            <label>ノード名</label>
+            <language>en</language>
+            <name>x_550277_poc_train_approval_history</name>
+            <plural>ノード名s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>dev057221</sys_created_by>
+            <sys_created_on>2021-04-22 07:12:51</sys_created_on>
+            <sys_id>e73325272f2720105e4e2d5df699b6f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>ノード名</sys_name>
+            <sys_package display_value="poc_training" source="x_550277_poc_train">676293b02fa320105e4e2d5df699b6b8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
+            <sys_update_name>sys_documentation_x_550277_poc_train_approval_history_node_name_en</sys_update_name>
+            <sys_updated_by>dev057221</sys_updated_by>
+            <sys_updated_on>2021-04-22 07:12:51</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

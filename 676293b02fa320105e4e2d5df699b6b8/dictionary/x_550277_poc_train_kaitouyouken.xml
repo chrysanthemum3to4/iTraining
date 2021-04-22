@@ -18,16 +18,19 @@
         <element label="回答依頼コピー新規作成フラグ" max_length="40" name="copytask" type="boolean"/>
         <element label="ファイル添付要否フラグ" max_length="40" name="file_attachment_flag" type="boolean"/>
         <element label="回答様式" max_length="40" name="file_attahment" type="file_attachment"/>
-        <element attributes="encode_utf8=false" label="回答依頼発信者" max_length="32" name="iraimoto" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="回答依頼発信者" mandatory="true" max_length="32" name="iraimoto" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="依頼元情報（URL、テキスト）" max_length="10000" name="iraimotojouhou" type="string"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="回答者" max_length="1024" name="kaitousya" reference="sys_user" type="glide_list"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="回答者" max_length="1024" name="kaitousya2" reference="sys_user" type="glide_list"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="回答者" max_length="1024" name="kaitousya3" reference="sys_user" type="glide_list"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="回答者グループリスト" max_length="1024" name="kaitousya_group_list_1" reference="sys_user_group" type="glide_list"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="回答者グループリスト" max_length="1024" name="kaitousya_group_list_2" reference="sys_user_group" type="glide_list"/>
-        <element attributes="edge_encryption_enabled=true" label="回答要件" max_length="1000" name="kaitouyouken" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="回答要件名称" max_length="40" name="kaitouyouken_name" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="回答期限" max_length="40" name="responsedeadline" type="glide_date"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="回答者グループリスト" max_length="1024" name="kaitousya_group_list_3" reference="sys_user" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="回答要件" mandatory="true" max_length="1000" name="kaitouyouken" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="回答要件名称" mandatory="true" max_length="40" name="kaitouyouken_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="督促メール本文" max_length="400" name="mail_body" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="依頼メール本文" max_length="400" name="req_mail_body" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="回答期限" mandatory="true" max_length="40" name="responsedeadline" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="回答依頼発信予定日" max_length="40" name="scheduled_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="督促条件" max_length="40" name="tokusokujouken" type="string">
             <choice>

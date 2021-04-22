@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>承認履歴</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_550277_poc_train_x_550277_poc_train_approval_history</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-22 06:58:16</sys_created_on>
+        <sys_id>f6af99ef2fe320105e4e2d5df699b6bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>承認履歴</sys_name>
+        <sys_package display_value="poc_training" source="x_550277_poc_train">676293b02fa320105e4e2d5df699b6b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
+        <sys_update_name>sys_db_object_f6af99ef2fe320105e4e2d5df699b6bc</sys_update_name>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-22 06:58:16</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role display_value="x_550277_poc_train._user" name="x_550277_poc_train._user">2698d3b42fa320105e4e2d5df699b6c3</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</application>
+        <file_path/>
+        <instance_id>83d1acb26fd75e0023b2a9cc5d3ee49c</instance_id>
+        <instance_name>dev25214</instance_name>
+        <name>sys_db_object_f6af99ef2fe320105e4e2d5df699b6bc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>承認履歴</label><live_feed_enabled>false</live_feed_enabled><name>x_550277_poc_train_x_550277_poc_train_approval_history</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>dev057221</sys_created_by><sys_created_on>2021-04-22 06:58:16</sys_created_on><sys_id>f6af99ef2fe320105e4e2d5df699b6bc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>承認履歴</sys_name><sys_package display_value="poc_training" source="x_550277_poc_train">676293b02fa320105e4e2d5df699b6b8</sys_package><sys_policy/><sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope><sys_update_name>sys_db_object_f6af99ef2fe320105e4e2d5df699b6bc</sys_update_name><sys_updated_by>dev057221</sys_updated_by><sys_updated_on>2021-04-22 06:58:16</sys_updated_on><update_access>false</update_access><user_role display_value="x_550277_poc_train._user" name="x_550277_poc_train._user">2698d3b42fa320105e4e2d5df699b6c3</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>1437226981</payload_hash>
+        <record_name>承認履歴</record_name>
+        <reverted_from/>
+        <source>e088bffe2f6720105e4e2d5df699b643</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-22 06:58:17</sys_created_on>
+        <sys_id>c6efd5632f2720105e4e2d5df699b671</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>178f85f49240000001</sys_recorded_at>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-22 06:58:17</sys_updated_on>
+        <type>テーブル</type>
+        <update_guid>02efd563842720103edfff8edf040d71</update_guid>
+        <update_guid_history>02efd563842720103edfff8edf040d71:1437226981</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-22 06:58:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>977f5ee8ce9b408092e01a03176bf439</sys_id>
+        <sys_metadata>f6af99ef2fe320105e4e2d5df699b6bc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>承認履歴</sys_name>
+        <sys_package display_value="poc_training" source="x_550277_poc_train">676293b02fa320105e4e2d5df699b6b8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
+        <sys_scope_delete display_value="">049492efd311477580ded372c0de8799</sys_scope_delete>
+        <sys_update_name>sys_db_object_f6af99ef2fe320105e4e2d5df699b6bc</sys_update_name>
+        <sys_update_version display_value="sys_db_object_f6af99ef2fe320105e4e2d5df699b6bc">c6efd5632f2720105e4e2d5df699b671</sys_update_version>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-22 06:58:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
