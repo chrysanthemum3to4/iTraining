@@ -2,35 +2,35 @@
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
-        <active>false</active>
+        <active>true</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build/>
+        <compiler_build>glide-paris-06-24-2020__patch1-hotfix3-09-23-2020</compiler_build>
         <copied_from/>
         <copied_from_name/>
         <description>回答タスクで未完了のレコードがある場合、回答者に対して督促メールを送信する</description>
         <internal_name>poc_kaitou_tokusoku_mail</internal_name>
-        <label_cache>[{"name":"f98e83e3-d95c-46f9-9164-74054dc11466.Records","label":"1➛回答タスク Records","reference":"x_550277_poc_train_kaitou_task","reference_display":"回答タスク Records","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f98e83e3-d95c-46f9-9164-74054dc11466.Table","label":"1➛回答タスク テーブル","reference":"x_550277_poc_train_kaitou_task","reference_display":"回答タスク テーブル","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f98e83e3-d95c-46f9-9164-74054dc11466.Count","label":"1➛カウント","reference_display":"カウント","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current","label":"トリガー➛回答依頼 Record","reference":"x_550277_poc_train_kaitouyouken","reference_display":"回答依頼","type":"reference","base_type":"reference","attributes":{}},{"name":"a49797bd-3cb1-4631-b8ac-e8fc14c0823c.item","label":"3➛回答タスク Record","reference":"x_550277_poc_train_kaitou_task","reference_display":"回答タスク","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"9e9fcaab-a828-4afc-a000-21f42761fb49.email","label":"4➛email","reference":"sys_email","reference_display":"メール","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a49797bd-3cb1-4631-b8ac-e8fc14c0823c.item.assigned_to.email","label":"3➛回答タスク Record➛回答社員➛メール","reference":"","reference_display":"メール","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Created or Updated_1.current.kaitouyouken","label":"トリガー➛回答依頼 Record➛回答要件","reference":"","reference_display":"回答要件","type":"string","base_type":"string","parent_table_name":"x_550277_poc_train_kaitouyouken","column_name":"kaitouyouken"},{"name":"45034ae3-5518-45c7-9550-ab969509f3bf.record","label":"5➛回答依頼 Record","reference":"x_550277_poc_train_kaitouyouken","reference_display":"回答依頼 Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"45034ae3-5518-45c7-9550-ab969509f3bf.table_name","label":"5➛回答依頼 テーブル","reference":"x_550277_poc_train_kaitouyouken","reference_display":"回答依頼 テーブル","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
-        <latest_snapshot/>
-        <master_snapshot/>
+        <label_cache>[{"name":"45034ae3-5518-45c7-9550-ab969509f3bf.table_name","label":"5➛回答依頼 テーブル","reference":"x_550277_poc_train_kaitouyouken","reference_display":"回答依頼","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"45034ae3-5518-45c7-9550-ab969509f3bf.record","label":"5➛回答依頼 Record","reference":"x_550277_poc_train_kaitouyouken","reference_display":"回答依頼","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.kaitouyouken","label":"トリガー➛回答依頼 Record➛回答要件","reference":"","reference_display":"回答要件","type":"string","base_type":"string","parent_table_name":"x_550277_poc_train_kaitouyouken","column_name":"kaitouyouken"},{"name":"a49797bd-3cb1-4631-b8ac-e8fc14c0823c.item.assigned_to.email","label":"3➛回答タスク Record➛回答社員➛メール","reference":"","reference_display":"メール","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"9e9fcaab-a828-4afc-a000-21f42761fb49.email","label":"4➛email","reference":"sys_email","reference_display":"メール","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a49797bd-3cb1-4631-b8ac-e8fc14c0823c.item","label":"3➛回答タスク Record","reference":"x_550277_poc_train_kaitou_task","reference_display":"回答タスク","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"Created or Updated_1.current","label":"トリガー➛回答依頼 Record","reference":"x_550277_poc_train_kaitouyouken","reference_display":"回答依頼","type":"reference","base_type":"reference","attributes":{}},{"name":"f98e83e3-d95c-46f9-9164-74054dc11466.Count","label":"1➛カウント","reference_display":"カウント","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f98e83e3-d95c-46f9-9164-74054dc11466.Table","label":"1➛回答タスク テーブル","reference":"x_550277_poc_train_kaitou_task","reference_display":"回答タスク","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f98e83e3-d95c-46f9-9164-74054dc11466.Records","label":"1➛回答タスク Records","reference":"x_550277_poc_train_kaitou_task","reference_display":"回答タスク","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <latest_snapshot>1d5a2d3b2f6320105e4e2d5df699b602</latest_snapshot>
+        <master_snapshot>cd1aa53b2f6320105e4e2d5df699b690</master_snapshot>
         <name>POC_kaitou_tokusoku_mail</name>
         <natlang/>
         <outputs/>
-        <remote_trigger_id/>
+        <remote_trigger_id>751ae53b2f6320105e4e2d5df699b648</remote_trigger_id>
         <run_as>user</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>draft</status>
+        <status>published</status>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>dev057221</sys_created_by>
         <sys_created_on>2021-04-16 04:25:59</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>bc83cee12fe320105e4e2d5df699b676</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>POC_kaitou_tokusoku_mail</sys_name>
         <sys_overrides/>
         <sys_package display_value="poc_training" source="x_550277_poc_train">676293b02fa320105e4e2d5df699b6b8</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
         <sys_update_name>sys_hub_flow_bc83cee12fe320105e4e2d5df699b676</sys_update_name>
         <sys_updated_by>dev057221</sys_updated_by>
-        <sys_updated_on>2021-04-19 06:32:53</sys_updated_on>
+        <sys_updated_on>2021-04-23 02:21:17</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=bc83cee12fe320105e4e2d5df699b676"/>
@@ -56,6 +56,57 @@
         <value/>
     </sys_translated_text>
     <sys_variable_value action="delete_multiple" query="document_key=bc83cee12fe320105e4e2d5df699b676"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_550277_poc_train_kaitouyouken">u_boolean_2=true<item endquery="false" field="u_boolean_2" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>true</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>751ae53b2f6320105e4e2d5df699b648</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:15</sys_updated_on>
+        <table>x_550277_poc_train_kaitouyouken</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"table":"sys_trigger_runner_mapping","id":"fd1ae53b2f6320105e4e2d5df699b648","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <identifier>bc83cee12fe320105e4e2d5df699b676</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:15</sys_created_on>
+        <sys_id>fd1ae53b2f6320105e4e2d5df699b648</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:15</sys_updated_on>
+        <trigger display_value="">751ae53b2f6320105e4e2d5df699b648</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_json_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
+        <document_id>fd1ae53b2f6320105e4e2d5df699b648</document_id>
+        <field>trigger_runner</field>
+        <length>144</length>
+        <position>0</position>
+        <source_table>sys_trigger_runner_mapping</source_table>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:15</sys_created_on>
+        <sys_id>751ae53b2f6320105e4e2d5df699b649</sys_id>
+    </sys_json_chunk>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=bc83cee12fe320105e4e2d5df699b676^sys_idNOT INfd1ae53b2f6320105e4e2d5df699b648"/>
     <sys_hub_flow_component action="delete_multiple" query="flow=bc83cee12fe320105e4e2d5df699b676^sys_idNOT IN7055862d2fe320105e4e2d5df699b63d,8955862d2fe320105e4e2d5df699b661,b85db9662f6720105e4e2d5df699b636,f455862d2fe320105e4e2d5df699b641,f455862d2fe320105e4e2d5df699b646"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -63,7 +114,7 @@
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent/>
         <comment/>
-        <compiled_snapshot/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
         <display_text/>
         <flow display_value="POC_kaitou_tokusoku_mail">bc83cee12fe320105e4e2d5df699b676</flow>
         <order>1</order>
@@ -72,10 +123,10 @@
         <sys_created_by>dev057221</sys_created_by>
         <sys_created_on>2021-04-16 04:33:55</sys_created_on>
         <sys_id>7055862d2fe320105e4e2d5df699b63d</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
         <sys_updated_by>dev057221</sys_updated_by>
-        <sys_updated_on>2021-04-19 06:32:52</sys_updated_on>
+        <sys_updated_on>2021-04-23 02:22:23</sys_updated_on>
         <ui_id>f98e83e3-d95c-46f9-9164-74054dc11466</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7055862d2fe320105e4e2d5df699b63d"/>
@@ -124,7 +175,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
         <comment/>
-        <compiled_snapshot/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="POC_kaitou_tokusoku_mail">bc83cee12fe320105e4e2d5df699b676</flow>
         <order>5</order>
@@ -133,10 +184,10 @@
         <sys_created_by>dev057221</sys_created_by>
         <sys_created_on>2021-04-16 04:33:56</sys_created_on>
         <sys_id>8955862d2fe320105e4e2d5df699b661</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
         <sys_updated_by>dev057221</sys_updated_by>
-        <sys_updated_on>2021-04-19 06:32:53</sys_updated_on>
+        <sys_updated_on>2021-04-23 02:22:23</sys_updated_on>
         <ui_id>45034ae3-5518-45c7-9550-ab969509f3bf</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8955862d2fe320105e4e2d5df699b661"/>
@@ -211,7 +262,7 @@
         <action_type display_value="poc_anser_tokusoku_mail">d51c35262f6720105e4e2d5df699b654</action_type>
         <action_type_parent/>
         <comment/>
-        <compiled_snapshot/>
+        <compiled_snapshot>d51c35262f6720105e4e2d5df699b654</compiled_snapshot>
         <display_text/>
         <flow display_value="POC_kaitou_tokusoku_mail">bc83cee12fe320105e4e2d5df699b676</flow>
         <order>4</order>
@@ -220,10 +271,10 @@
         <sys_created_by>dev057221</sys_created_by>
         <sys_created_on>2021-04-19 06:32:52</sys_created_on>
         <sys_id>b85db9662f6720105e4e2d5df699b636</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
         <sys_updated_by>dev057221</sys_updated_by>
-        <sys_updated_on>2021-04-19 06:32:52</sys_updated_on>
+        <sys_updated_on>2021-04-23 02:22:23</sys_updated_on>
         <ui_id>f8d6e693-c9c8-48ab-9060-6e7340eb84ed</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b85db9662f6720105e4e2d5df699b636"/>
@@ -260,10 +311,10 @@
         <sys_created_by>dev057221</sys_created_by>
         <sys_created_on>2021-04-16 04:33:55</sys_created_on>
         <sys_id>f455862d2fe320105e4e2d5df699b641</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
         <sys_updated_by>dev057221</sys_updated_by>
-        <sys_updated_on>2021-04-19 06:32:52</sys_updated_on>
+        <sys_updated_on>2021-04-23 02:21:16</sys_updated_on>
         <ui_id>2fe8a01b-e6d6-42ee-9ce4-e322b9c74fa7</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -328,10 +379,10 @@
         <sys_created_by>dev057221</sys_created_by>
         <sys_created_on>2021-04-16 04:33:55</sys_created_on>
         <sys_id>f455862d2fe320105e4e2d5df699b646</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
         <sys_updated_by>dev057221</sys_updated_by>
-        <sys_updated_on>2021-04-19 06:32:52</sys_updated_on>
+        <sys_updated_on>2021-04-23 02:21:16</sys_updated_on>
         <ui_id>a49797bd-3cb1-4631-b8ac-e8fc14c0823c</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -360,10 +411,10 @@
         <sys_created_by>dev057221</sys_created_by>
         <sys_created_on>2021-04-16 04:33:55</sys_created_on>
         <sys_id>3855862d2fe320105e4e2d5df699b634</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>dev057221</sys_updated_by>
-        <sys_updated_on>2021-04-19 06:32:52</sys_updated_on>
+        <sys_updated_on>2021-04-23 02:21:16</sys_updated_on>
         <trigger_definition display_value="作成済みまたは更新済み">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -429,7 +480,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -446,8 +497,8 @@
         <default_value/>
         <defaultsort/>
         <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
         <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
@@ -487,14 +538,14 @@
         <sys_created_by>dev057221</sys_created_by>
         <sys_created_on>2021-04-16 04:33:54</sys_created_on>
         <sys_id>ac55862d2fe320105e4e2d5df699b61e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dev057221</sys_updated_by>
-        <sys_updated_on>2021-04-16 04:33:54</sys_updated_on>
+        <sys_updated_on>2021-04-23 02:21:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -510,7 +561,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -568,14 +619,14 @@
         <sys_created_by>dev057221</sys_created_by>
         <sys_created_on>2021-04-16 04:33:55</sys_created_on>
         <sys_id>f455862d2fe320105e4e2d5df699b62d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dev057221</sys_updated_by>
-        <sys_updated_on>2021-04-16 04:33:55</sys_updated_on>
+        <sys_updated_on>2021-04-23 02:21:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -591,7 +642,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD685db966566720105a9327d01da90507,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD4a1ae53b4e632010af5054c72a0a7984,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -649,14 +700,14 @@
         <sys_created_by>dev057221</sys_created_by>
         <sys_created_on>2021-04-16 04:33:55</sys_created_on>
         <sys_id>fc55862d2fe320105e4e2d5df699b627</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dev057221</sys_updated_by>
-        <sys_updated_on>2021-04-19 06:32:52</sys_updated_on>
+        <sys_updated_on>2021-04-23 02:21:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -675,7 +726,7 @@
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent/>
         <comment/>
-        <compiled_snapshot/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
         <display_text/>
         <flow display_value="POC_kaitou_tokusoku_mail">bc83cee12fe320105e4e2d5df699b676</flow>
         <order>1</order>
@@ -684,10 +735,10 @@
         <sys_created_by>dev057221</sys_created_by>
         <sys_created_on>2021-04-16 04:33:55</sys_created_on>
         <sys_id>7055862d2fe320105e4e2d5df699b63d</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
         <sys_updated_by>dev057221</sys_updated_by>
-        <sys_updated_on>2021-04-19 06:32:52</sys_updated_on>
+        <sys_updated_on>2021-04-23 02:22:23</sys_updated_on>
         <ui_id>f98e83e3-d95c-46f9-9164-74054dc11466</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7055862d2fe320105e4e2d5df699b63d"/>
@@ -736,7 +787,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
         <comment/>
-        <compiled_snapshot/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="POC_kaitou_tokusoku_mail">bc83cee12fe320105e4e2d5df699b676</flow>
         <order>5</order>
@@ -745,10 +796,10 @@
         <sys_created_by>dev057221</sys_created_by>
         <sys_created_on>2021-04-16 04:33:56</sys_created_on>
         <sys_id>8955862d2fe320105e4e2d5df699b661</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
         <sys_updated_by>dev057221</sys_updated_by>
-        <sys_updated_on>2021-04-19 06:32:53</sys_updated_on>
+        <sys_updated_on>2021-04-23 02:22:23</sys_updated_on>
         <ui_id>45034ae3-5518-45c7-9550-ab969509f3bf</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8955862d2fe320105e4e2d5df699b661"/>
@@ -823,7 +874,7 @@
         <action_type display_value="poc_anser_tokusoku_mail">d51c35262f6720105e4e2d5df699b654</action_type>
         <action_type_parent/>
         <comment/>
-        <compiled_snapshot/>
+        <compiled_snapshot>d51c35262f6720105e4e2d5df699b654</compiled_snapshot>
         <display_text/>
         <flow display_value="POC_kaitou_tokusoku_mail">bc83cee12fe320105e4e2d5df699b676</flow>
         <order>4</order>
@@ -832,10 +883,10 @@
         <sys_created_by>dev057221</sys_created_by>
         <sys_created_on>2021-04-19 06:32:52</sys_created_on>
         <sys_id>b85db9662f6720105e4e2d5df699b636</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
         <sys_updated_by>dev057221</sys_updated_by>
-        <sys_updated_on>2021-04-19 06:32:52</sys_updated_on>
+        <sys_updated_on>2021-04-23 02:22:23</sys_updated_on>
         <ui_id>f8d6e693-c9c8-48ab-9060-6e7340eb84ed</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b85db9662f6720105e4e2d5df699b636"/>
@@ -873,10 +924,10 @@
         <sys_created_by>dev057221</sys_created_by>
         <sys_created_on>2021-04-16 04:33:55</sys_created_on>
         <sys_id>f455862d2fe320105e4e2d5df699b641</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
         <sys_updated_by>dev057221</sys_updated_by>
-        <sys_updated_on>2021-04-19 06:32:52</sys_updated_on>
+        <sys_updated_on>2021-04-23 02:21:16</sys_updated_on>
         <ui_id>2fe8a01b-e6d6-42ee-9ce4-e322b9c74fa7</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -941,10 +992,10 @@
         <sys_created_by>dev057221</sys_created_by>
         <sys_created_on>2021-04-16 04:33:55</sys_created_on>
         <sys_id>f455862d2fe320105e4e2d5df699b646</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
         <sys_updated_by>dev057221</sys_updated_by>
-        <sys_updated_on>2021-04-19 06:32:52</sys_updated_on>
+        <sys_updated_on>2021-04-23 02:21:16</sys_updated_on>
         <ui_id>a49797bd-3cb1-4631-b8ac-e8fc14c0823c</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1048,6 +1099,1073 @@
         <sys_update_name/>
         <sys_updated_by>dev057221</sys_updated_by>
         <sys_updated_on>2021-04-16 04:33:55</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=bc83cee12fe320105e4e2d5df699b676^sys_idNOT INfd1ae53b2f6320105e4e2d5df699b649"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.Every</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"fd1ae53b2f6320105e4e2d5df699b649","name":"plan"}}</plan>
+        <plan_id>bc83cee12fe320105e4e2d5df699b676</plan_id>
+        <snapshot>1d5a2d3b2f6320105e4e2d5df699b602</snapshot>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fd1ae53b2f6320105e4e2d5df699b649</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:15</sys_updated_on>
+        <trigger display_value="">751ae53b2f6320105e4e2d5df699b648</trigger>
+    </sys_flow_trigger_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>回答タスクで未完了のレコードがある場合、回答者に対して督促メールを送信する</description>
+        <internal_name>poc_kaitou_tokusoku_mail</internal_name>
+        <label_cache>[{"name":"45034ae3-5518-45c7-9550-ab969509f3bf.table_name","label":"5➛回答依頼 テーブル","reference":"x_550277_poc_train_kaitouyouken","reference_display":"回答依頼","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"45034ae3-5518-45c7-9550-ab969509f3bf.record","label":"5➛回答依頼 Record","reference":"x_550277_poc_train_kaitouyouken","reference_display":"回答依頼","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.kaitouyouken","label":"トリガー➛回答依頼 Record➛回答要件","reference":"","reference_display":"回答要件","type":"string","base_type":"string","parent_table_name":"x_550277_poc_train_kaitouyouken","column_name":"kaitouyouken"},{"name":"a49797bd-3cb1-4631-b8ac-e8fc14c0823c.item.assigned_to.email","label":"3➛回答タスク Record➛回答社員➛メール","reference":"","reference_display":"メール","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"9e9fcaab-a828-4afc-a000-21f42761fb49.email","label":"4➛email","reference":"sys_email","reference_display":"メール","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a49797bd-3cb1-4631-b8ac-e8fc14c0823c.item","label":"3➛回答タスク Record","reference":"x_550277_poc_train_kaitou_task","reference_display":"回答タスク","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"Created or Updated_1.current","label":"トリガー➛回答依頼 Record","reference":"x_550277_poc_train_kaitouyouken","reference_display":"回答依頼","type":"reference","base_type":"reference","attributes":{}},{"name":"f98e83e3-d95c-46f9-9164-74054dc11466.Count","label":"1➛カウント","reference_display":"カウント","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f98e83e3-d95c-46f9-9164-74054dc11466.Table","label":"1➛回答タスク テーブル","reference":"x_550277_poc_train_kaitou_task","reference_display":"回答タスク","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f98e83e3-d95c-46f9-9164-74054dc11466.Records","label":"1➛回答タスク Records","reference":"x_550277_poc_train_kaitou_task","reference_display":"回答タスク","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>POC_kaitou_tokusoku_mail</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="POC_kaitou_tokusoku_mail">bc83cee12fe320105e4e2d5df699b676</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cd1aa53b2f6320105e4e2d5df699b690</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:12</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=cd1aa53b2f6320105e4e2d5df699b690"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>cd1aa53b2f6320105e4e2d5df699b690</documentkey>
+        <fieldname>annotation</fieldname>
+        <language>ja</language>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:12</sys_created_on>
+        <sys_id>451aa53b2f6320105e4e2d5df699b691</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:12</sys_updated_on>
+        <tablename>sys_hub_flow_snapshot</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_variable_value action="delete_multiple" query="document_key=cd1aa53b2f6320105e4e2d5df699b690"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=cd1aa53b2f6320105e4e2d5df699b690^sys_idNOT IN151aa53b2f6320105e4e2d5df699b6fb,651ae53b2f6320105e4e2d5df699b606,651ae53b2f6320105e4e2d5df699b614,691ae53b2f6320105e4e2d5df699b60d,951aa53b2f6320105e4e2d5df699b6f6"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">3055862d2fe320105e4e2d5df699b646</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="POC_kaitou_tokusoku_mail">cd1aa53b2f6320105e4e2d5df699b690</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="各">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>2fe8a01b-e6d6-42ee-9ce4-e322b9c74fa7</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:13</sys_created_on>
+        <sys_id>151aa53b2f6320105e4e2d5df699b6fb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:13</sys_updated_on>
+        <ui_id>a49797bd-3cb1-4631-b8ac-e8fc14c0823c</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=151aa53b2f6320105e4e2d5df699b6fb"/>
+    <sys_element_mapping action="delete_multiple" query="id=151aa53b2f6320105e4e2d5df699b6fb"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>151aa53b2f6320105e4e2d5df699b6fb</id>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:13</sys_created_on>
+        <sys_id>9d1aa53b2f6320105e4e2d5df699b6fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:13</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{f98e83e3-d95c-46f9-9164-74054dc11466.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="POC_kaitou_tokusoku_mail">cd1aa53b2f6320105e4e2d5df699b690</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:13</sys_created_on>
+        <sys_id>651ae53b2f6320105e4e2d5df699b606</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:14</sys_updated_on>
+        <ui_id>f98e83e3-d95c-46f9-9164-74054dc11466</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=651ae53b2f6320105e4e2d5df699b606"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>651ae53b2f6320105e4e2d5df699b606</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:14</sys_created_on>
+        <sys_id>691ae53b2f6320105e4e2d5df699b608</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:14</sys_updated_on>
+        <value>x_550277_poc_train_kaitou_task</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=651ae53b2f6320105e4e2d5df699b606"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>651ae53b2f6320105e4e2d5df699b606</id>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:14</sys_created_on>
+        <sys_id>251ae53b2f6320105e4e2d5df699b608</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>parent={{Created or Updated_1.current}}^state!=6</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>651ae53b2f6320105e4e2d5df699b606</id>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:14</sys_created_on>
+        <sys_id>e51ae53b2f6320105e4e2d5df699b608</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="POC_kaitou_tokusoku_mail">cd1aa53b2f6320105e4e2d5df699b690</flow>
+        <order>5</order>
+        <parent_ui_id>2fe8a01b-e6d6-42ee-9ce4-e322b9c74fa7</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:14</sys_created_on>
+        <sys_id>651ae53b2f6320105e4e2d5df699b614</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:14</sys_updated_on>
+        <ui_id>45034ae3-5518-45c7-9550-ab969509f3bf</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=651ae53b2f6320105e4e2d5df699b614"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>651ae53b2f6320105e4e2d5df699b614</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:14</sys_created_on>
+        <sys_id>651ae53b2f6320105e4e2d5df699b616</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:14</sys_updated_on>
+        <value>x_550277_poc_train_kaitouyouken</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>651ae53b2f6320105e4e2d5df699b614</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:14</sys_created_on>
+        <sys_id>a11ae53b2f6320105e4e2d5df699b616</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:14</sys_updated_on>
+        <value>u_boolean_2=false</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=651ae53b2f6320105e4e2d5df699b614"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>651ae53b2f6320105e4e2d5df699b614</id>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:14</sys_created_on>
+        <sys_id>6d1ae53b2f6320105e4e2d5df699b615</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>651ae53b2f6320105e4e2d5df699b614</id>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:14</sys_created_on>
+        <sys_id>a91ae53b2f6320105e4e2d5df699b615</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>651ae53b2f6320105e4e2d5df699b614</id>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:14</sys_created_on>
+        <sys_id>211ae53b2f6320105e4e2d5df699b616</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="poc_anser_tokusoku_mail">d51c35262f6720105e4e2d5df699b654</action_type>
+        <action_type_parent display_value="poc_answer_tokusoku_mail">eaabbda22f6720105e4e2d5df699b60c</action_type_parent>
+        <comment/>
+        <compiled_snapshot>d51c35262f6720105e4e2d5df699b654</compiled_snapshot>
+        <display_text/>
+        <flow display_value="POC_kaitou_tokusoku_mail">cd1aa53b2f6320105e4e2d5df699b690</flow>
+        <order>4</order>
+        <parent_ui_id>a49797bd-3cb1-4631-b8ac-e8fc14c0823c</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:14</sys_created_on>
+        <sys_id>691ae53b2f6320105e4e2d5df699b60d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:14</sys_updated_on>
+        <ui_id>f8d6e693-c9c8-48ab-9060-6e7340eb84ed</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=691ae53b2f6320105e4e2d5df699b60d"/>
+    <sys_element_mapping action="delete_multiple" query="id=691ae53b2f6320105e4e2d5df699b60d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>variable</field>
+        <id>691ae53b2f6320105e4e2d5df699b60d</id>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:14</sys_created_on>
+        <sys_id>2d1ae53b2f6320105e4e2d5df699b60e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d51c35262f6720105e4e2d5df699b654</table>
+        <value>{{a49797bd-3cb1-4631-b8ac-e8fc14c0823c.item}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">b855862d2fe320105e4e2d5df699b640</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="POC_kaitou_tokusoku_mail">cd1aa53b2f6320105e4e2d5df699b690</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:13</sys_created_on>
+        <sys_id>951aa53b2f6320105e4e2d5df699b6f6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:13</sys_updated_on>
+        <ui_id>2fe8a01b-e6d6-42ee-9ce4-e322b9c74fa7</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=951aa53b2f6320105e4e2d5df699b6f6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>951aa53b2f6320105e4e2d5df699b6f6</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:13</sys_created_on>
+        <sys_id>911aa53b2f6320105e4e2d5df699b6fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:13</sys_updated_on>
+        <value>回答タスクに督促対象のレコードが存在する場合</value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=951aa53b2f6320105e4e2d5df699b6f6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>951aa53b2f6320105e4e2d5df699b6f6</id>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:13</sys_created_on>
+        <sys_id>111aa53b2f6320105e4e2d5df699b6fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:13</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{f98e83e3-d95c-46f9-9164-74054dc11466.Count}}&gt;=0</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>951aa53b2f6320105e4e2d5df699b6f6</id>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:13</sys_created_on>
+        <sys_id>591aa53b2f6320105e4e2d5df699b6f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:13</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=cd1aa53b2f6320105e4e2d5df699b690^sys_idNOT INe91ae53b2f6320105e4e2d5df699b616"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="POC_kaitou_tokusoku_mail">cd1aa53b2f6320105e4e2d5df699b690</flow>
+        <name>Created or Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:14</sys_created_on>
+        <sys_id>e91ae53b2f6320105e4e2d5df699b616</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:15</sys_updated_on>
+        <trigger_definition display_value="作成済みまたは更新済み">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e91ae53b2f6320105e4e2d5df699b616"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>e91ae53b2f6320105e4e2d5df699b616</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:14</sys_created_on>
+        <sys_id>251ae53b2f6320105e4e2d5df699b618</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:14</sys_updated_on>
+        <value>every</value>
+        <variable display_value="">2b9def50c31132002841b63b12d3ae5b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>e91ae53b2f6320105e4e2d5df699b616</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:14</sys_created_on>
+        <sys_id>a91ae53b2f6320105e4e2d5df699b618</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:14</sys_updated_on>
+        <value>x_550277_poc_train_kaitouyouken</value>
+        <variable display_value="">cf1e1980c32222002841b63b12d3aea0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>e91ae53b2f6320105e4e2d5df699b616</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:14</sys_created_on>
+        <sys_id>e51ae53b2f6320105e4e2d5df699b618</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:14</sys_updated_on>
+        <value>u_boolean_2=true</value>
+        <variable display_value="">707dd180c32222002841b63b12d3aecb</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=cd1aa53b2f6320105e4e2d5df699b690^sys_idNOT INc11aa53b2f6320105e4e2d5df699b692"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>cd1aa53b2f6320105e4e2d5df699b690</id>
+        <name>POC_kaitou_tokusoku_mail</name>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:12</sys_created_on>
+        <sys_id>c11aa53b2f6320105e4e2d5df699b692</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:12</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=cd1aa53b2f6320105e4e2d5df699b690^sys_idNOT IN491aa53b2f6320105e4e2d5df699b695,511aa53b2f6320105e4e2d5df699b6c6,d11aa53b2f6320105e4e2d5df699b6d0"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>レコード</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="POC_kaitou_tokusoku_mail">cd1aa53b2f6320105e4e2d5df699b690</model>
+        <model_id>cd1aa53b2f6320105e4e2d5df699b690</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_cd1aa53b2f6320105e4e2d5df699b690</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:12</sys_created_on>
+        <sys_id>491aa53b2f6320105e4e2d5df699b695</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD451aa53b9c6320105c185b5e20651993,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="文字列">string</internal_type>
+        <label>変更されたフィールド</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="POC_kaitou_tokusoku_mail">cd1aa53b2f6320105e4e2d5df699b690</model>
+        <model_id>cd1aa53b2f6320105e4e2d5df699b690</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_cd1aa53b2f6320105e4e2d5df699b690</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:13</sys_created_on>
+        <sys_id>511aa53b2f6320105e4e2d5df699b6c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>テーブル名</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="POC_kaitou_tokusoku_mail">cd1aa53b2f6320105e4e2d5df699b690</model>
+        <model_id>cd1aa53b2f6320105e4e2d5df699b690</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_cd1aa53b2f6320105e4e2d5df699b690</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:13</sys_created_on>
+        <sys_id>d11aa53b2f6320105e4e2d5df699b6d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=cd1aa53b2f6320105e4e2d5df699b690^sys_idNOT IN651ae53b2f6320105e4e2d5df699b606,651ae53b2f6320105e4e2d5df699b614,691ae53b2f6320105e4e2d5df699b60d"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="POC_kaitou_tokusoku_mail">cd1aa53b2f6320105e4e2d5df699b690</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:13</sys_created_on>
+        <sys_id>651ae53b2f6320105e4e2d5df699b606</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:14</sys_updated_on>
+        <ui_id>f98e83e3-d95c-46f9-9164-74054dc11466</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=651ae53b2f6320105e4e2d5df699b606"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>651ae53b2f6320105e4e2d5df699b606</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:14</sys_created_on>
+        <sys_id>691ae53b2f6320105e4e2d5df699b608</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:14</sys_updated_on>
+        <value>x_550277_poc_train_kaitou_task</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=651ae53b2f6320105e4e2d5df699b606"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>651ae53b2f6320105e4e2d5df699b606</id>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:14</sys_created_on>
+        <sys_id>251ae53b2f6320105e4e2d5df699b608</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>parent={{Created or Updated_1.current}}^state!=6</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>651ae53b2f6320105e4e2d5df699b606</id>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:14</sys_created_on>
+        <sys_id>e51ae53b2f6320105e4e2d5df699b608</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="POC_kaitou_tokusoku_mail">cd1aa53b2f6320105e4e2d5df699b690</flow>
+        <order>5</order>
+        <parent_ui_id>2fe8a01b-e6d6-42ee-9ce4-e322b9c74fa7</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:14</sys_created_on>
+        <sys_id>651ae53b2f6320105e4e2d5df699b614</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:14</sys_updated_on>
+        <ui_id>45034ae3-5518-45c7-9550-ab969509f3bf</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=651ae53b2f6320105e4e2d5df699b614"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>651ae53b2f6320105e4e2d5df699b614</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:14</sys_created_on>
+        <sys_id>651ae53b2f6320105e4e2d5df699b616</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:14</sys_updated_on>
+        <value>x_550277_poc_train_kaitouyouken</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>651ae53b2f6320105e4e2d5df699b614</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:14</sys_created_on>
+        <sys_id>a11ae53b2f6320105e4e2d5df699b616</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:14</sys_updated_on>
+        <value>u_boolean_2=false</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=651ae53b2f6320105e4e2d5df699b614"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>651ae53b2f6320105e4e2d5df699b614</id>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:14</sys_created_on>
+        <sys_id>6d1ae53b2f6320105e4e2d5df699b615</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>651ae53b2f6320105e4e2d5df699b614</id>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:14</sys_created_on>
+        <sys_id>a91ae53b2f6320105e4e2d5df699b615</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>651ae53b2f6320105e4e2d5df699b614</id>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:14</sys_created_on>
+        <sys_id>211ae53b2f6320105e4e2d5df699b616</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="poc_anser_tokusoku_mail">d51c35262f6720105e4e2d5df699b654</action_type>
+        <action_type_parent display_value="poc_answer_tokusoku_mail">eaabbda22f6720105e4e2d5df699b60c</action_type_parent>
+        <comment/>
+        <compiled_snapshot>d51c35262f6720105e4e2d5df699b654</compiled_snapshot>
+        <display_text/>
+        <flow display_value="POC_kaitou_tokusoku_mail">cd1aa53b2f6320105e4e2d5df699b690</flow>
+        <order>4</order>
+        <parent_ui_id>a49797bd-3cb1-4631-b8ac-e8fc14c0823c</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:14</sys_created_on>
+        <sys_id>691ae53b2f6320105e4e2d5df699b60d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:14</sys_updated_on>
+        <ui_id>f8d6e693-c9c8-48ab-9060-6e7340eb84ed</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=691ae53b2f6320105e4e2d5df699b60d"/>
+    <sys_element_mapping action="delete_multiple" query="id=691ae53b2f6320105e4e2d5df699b60d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>variable</field>
+        <id>691ae53b2f6320105e4e2d5df699b60d</id>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:14</sys_created_on>
+        <sys_id>2d1ae53b2f6320105e4e2d5df699b60e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d51c35262f6720105e4e2d5df699b654</table>
+        <value>{{a49797bd-3cb1-4631-b8ac-e8fc14c0823c.item}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=cd1aa53b2f6320105e4e2d5df699b690^sys_idNOT IN151aa53b2f6320105e4e2d5df699b6fb,951aa53b2f6320105e4e2d5df699b6f6"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">3055862d2fe320105e4e2d5df699b646</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="POC_kaitou_tokusoku_mail">cd1aa53b2f6320105e4e2d5df699b690</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="各">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>2fe8a01b-e6d6-42ee-9ce4-e322b9c74fa7</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:13</sys_created_on>
+        <sys_id>151aa53b2f6320105e4e2d5df699b6fb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:13</sys_updated_on>
+        <ui_id>a49797bd-3cb1-4631-b8ac-e8fc14c0823c</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=151aa53b2f6320105e4e2d5df699b6fb"/>
+    <sys_element_mapping action="delete_multiple" query="id=151aa53b2f6320105e4e2d5df699b6fb"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>151aa53b2f6320105e4e2d5df699b6fb</id>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:13</sys_created_on>
+        <sys_id>9d1aa53b2f6320105e4e2d5df699b6fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:13</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{f98e83e3-d95c-46f9-9164-74054dc11466.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">b855862d2fe320105e4e2d5df699b640</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="POC_kaitou_tokusoku_mail">cd1aa53b2f6320105e4e2d5df699b690</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:13</sys_created_on>
+        <sys_id>951aa53b2f6320105e4e2d5df699b6f6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:13</sys_updated_on>
+        <ui_id>2fe8a01b-e6d6-42ee-9ce4-e322b9c74fa7</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=951aa53b2f6320105e4e2d5df699b6f6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>951aa53b2f6320105e4e2d5df699b6f6</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:13</sys_created_on>
+        <sys_id>911aa53b2f6320105e4e2d5df699b6fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:13</sys_updated_on>
+        <value>回答タスクに督促対象のレコードが存在する場合</value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=951aa53b2f6320105e4e2d5df699b6f6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>951aa53b2f6320105e4e2d5df699b6f6</id>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:13</sys_created_on>
+        <sys_id>111aa53b2f6320105e4e2d5df699b6fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:13</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{f98e83e3-d95c-46f9-9164-74054dc11466.Count}}&gt;=0</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>951aa53b2f6320105e4e2d5df699b6f6</id>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:13</sys_created_on>
+        <sys_id>591aa53b2f6320105e4e2d5df699b6f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:13</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=cd1aa53b2f6320105e4e2d5df699b690^sys_idNOT INed1ae53b2f6320105e4e2d5df699b618"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>cd1aa53b2f6320105e4e2d5df699b690</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.kaitouyouken}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:14</sys_created_on>
+        <sys_id>ed1ae53b2f6320105e4e2d5df699b618</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:14</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>b22cfe9f-ef9a-4c75-834b-60f5e45edfec</ui_id>
+    </sys_hub_pill_compound>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_cd1aa53b2f6320105e4e2d5df699b690^sys_idNOT IN111aa53b2f6320105e4e2d5df699b6c2,111aa53b2f6320105e4e2d5df699b6d6,911aa53b2f6320105e4e2d5df699b6cc"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>レコード</label>
+        <language>ja</language>
+        <name>var__m_sys_hub_flow_input_cd1aa53b2f6320105e4e2d5df699b690</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:13</sys_created_on>
+        <sys_id>111aa53b2f6320105e4e2d5df699b6c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="poc_training" source="x_550277_poc_train">676293b02fa320105e4e2d5df699b6b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>テーブル名</label>
+        <language>ja</language>
+        <name>var__m_sys_hub_flow_input_cd1aa53b2f6320105e4e2d5df699b690</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:13</sys_created_on>
+        <sys_id>111aa53b2f6320105e4e2d5df699b6d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="poc_training" source="x_550277_poc_train">676293b02fa320105e4e2d5df699b6b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>変更されたフィールド</label>
+        <language>ja</language>
+        <name>var__m_sys_hub_flow_input_cd1aa53b2f6320105e4e2d5df699b690</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 02:21:13</sys_created_on>
+        <sys_id>911aa53b2f6320105e4e2d5df699b6cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="poc_training" source="x_550277_poc_train">676293b02fa320105e4e2d5df699b6b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-23 02:21:13</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>

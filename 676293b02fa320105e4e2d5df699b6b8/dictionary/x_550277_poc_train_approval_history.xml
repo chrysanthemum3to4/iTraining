@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="承認履歴" max_length="40" name="x_550277_poc_train_approval_history" type="collection">
+    <element label="承認履歴" max_length="40" name="x_550277_poc_train_approval_history" sizeclass="6" type="collection">
         <element label="代理人" max_length="32" name="agent" reference="sys_user" type="reference"/>
         <element label="回答者" max_length="32" name="kaitousya" reference="sys_user" type="reference"/>
         <element label="回答要件" max_length="32" name="kaitouyouken" reference="x_550277_poc_train_kaitouyouken" type="reference"/>

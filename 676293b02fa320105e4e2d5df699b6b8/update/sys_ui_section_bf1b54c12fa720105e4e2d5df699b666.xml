@@ -3,11 +3,11 @@
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>dev057221</sys_created_by>
-            <sys_created_on>2021-04-22 02:34:58</sys_created_on>
-            <sys_id>bca320ab2f6320105e4e2d5df699b6bb</sys_id>
+            <sys_created_on>2021-04-23 02:19:11</sys_created_on>
+            <sys_id>af99adf72f6320105e4e2d5df699b6ec</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>dev057221</sys_updated_by>
-            <sys_updated_on>2021-04-22 02:34:58</sys_updated_on>
+            <sys_updated_on>2021-04-23 02:19:11</sys_updated_on>
             <text>※回答期限到来後の督促は”督促メール送信ボタン”よりお願いします。</text>
             <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
         </sys_ui_annotation>
@@ -15,27 +15,27 @@
             <element>tokusokujouken</element>
             <position>0</position>
             <sys_created_by>dev057221</sys_created_by>
-            <sys_created_on>2021-04-22 02:34:58</sys_created_on>
-            <sys_id>01a320ab2f6320105e4e2d5df699b6bf</sys_id>
+            <sys_created_on>2021-04-23 02:19:11</sys_created_on>
+            <sys_id>6b99adf72f6320105e4e2d5df699b6ef</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="督促条件" display_value="督促条件" name="x_550277_poc_train_kaitouyouken" sys_domain="global" view="Default view">bf1b54c12fa720105e4e2d5df699b666</sys_ui_section>
             <sys_updated_by>dev057221</sys_updated_by>
-            <sys_updated_on>2021-04-22 02:34:58</sys_updated_on>
+            <sys_updated_on>2021-04-23 02:19:11</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>bca320ab2f6320105e4e2d5df699b6bb</element>
+            <element>af99adf72f6320105e4e2d5df699b6ec</element>
             <position>1</position>
             <sys_created_by>dev057221</sys_created_by>
-            <sys_created_on>2021-04-22 02:34:58</sys_created_on>
-            <sys_id>81a320ab2f6320105e4e2d5df699b6bf</sys_id>
+            <sys_created_on>2021-04-23 02:19:11</sys_created_on>
+            <sys_id>eb99adf72f6320105e4e2d5df699b6ef</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="督促条件" display_value="督促条件" name="x_550277_poc_train_kaitouyouken" sys_domain="global" view="Default view">bf1b54c12fa720105e4e2d5df699b666</sys_ui_section>
             <sys_updated_by>dev057221</sys_updated_by>
-            <sys_updated_on>2021-04-22 02:34:58</sys_updated_on>
+            <sys_updated_on>2021-04-23 02:19:11</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -43,13 +43,13 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>dev057221</sys_created_by>
-            <sys_created_on>2021-04-22 02:34:58</sys_created_on>
-            <sys_id>05a320ab2f6320105e4e2d5df699b6bf</sys_id>
+            <sys_created_on>2021-04-23 02:19:11</sys_created_on>
+            <sys_id>6f99adf72f6320105e4e2d5df699b6ef</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="督促条件" display_value="督促条件" name="x_550277_poc_train_kaitouyouken" sys_domain="global" view="Default view">bf1b54c12fa720105e4e2d5df699b666</sys_ui_section>
             <sys_updated_by>dev057221</sys_updated_by>
-            <sys_updated_on>2021-04-22 02:34:58</sys_updated_on>
+            <sys_updated_on>2021-04-23 02:19:11</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -57,13 +57,13 @@
             <element>mail_body</element>
             <position>3</position>
             <sys_created_by>dev057221</sys_created_by>
-            <sys_created_on>2021-04-22 02:34:58</sys_created_on>
-            <sys_id>85a320ab2f6320105e4e2d5df699b6bf</sys_id>
+            <sys_created_on>2021-04-23 02:19:11</sys_created_on>
+            <sys_id>ef99adf72f6320105e4e2d5df699b6ef</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="督促条件" display_value="督促条件" name="x_550277_poc_train_kaitouyouken" sys_domain="global" view="Default view">bf1b54c12fa720105e4e2d5df699b666</sys_ui_section>
             <sys_updated_by>dev057221</sys_updated_by>
-            <sys_updated_on>2021-04-22 02:34:58</sys_updated_on>
+            <sys_updated_on>2021-04-23 02:19:11</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

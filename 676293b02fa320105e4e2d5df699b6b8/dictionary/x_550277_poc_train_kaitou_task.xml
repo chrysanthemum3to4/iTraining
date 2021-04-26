@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="回答タスク" max_length="40" name="x_550277_poc_train_kaitou_task" sizeclass="30" type="collection">
+    <element extends="task" label="回答タスク" max_length="40" name="x_550277_poc_train_kaitou_task" sizeclass="56" type="collection">
         <element label="回答ファイル" max_length="40" name="file" type="file_attachment"/>
         <element choice="3" default="1" label="更新前ステータス" mandatory="true" max_length="40" name="prev_stat" type="integer">
             <choice>

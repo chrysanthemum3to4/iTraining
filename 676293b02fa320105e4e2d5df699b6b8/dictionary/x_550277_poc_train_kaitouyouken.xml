@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="回答依頼" max_length="40" name="x_550277_poc_train_kaitouyouken" sizeclass="6" type="collection">
+    <element extends="task" label="回答依頼" max_length="40" name="x_550277_poc_train_kaitouyouken" sizeclass="8" type="collection">
         <element label="承認フロー" max_length="32" name="approval_flow" reference="x_550277_poc_train_approval_flow" type="reference"/>
         <element label="承認フロー" max_length="32" name="approval_flow2" reference="x_550277_poc_train_approval_flow" type="reference"/>
         <element label="承認フロー" max_length="32" name="approval_flow3" reference="x_550277_poc_train_approval_flow" type="reference"/>
@@ -38,7 +38,7 @@
                 <element inactive_on_update="false" label="１週間前" language="ja" sequence="1" value="１週間前"/>
             </choice>
         </element>
-        <element label="回答依頼発信フラグ" max_length="40" name="u_boolean_1" type="boolean"/>
+        <element label="回答依頼発信フラグ" max_length="40" name="u_boolean_1" read_only="true" type="boolean"/>
         <element label="督促メール送信有無フラグ" max_length="40" name="u_boolean_2" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="期限到来後_督促条件" max_length="40" name="u_choice_2" type="string">
             <choice>
