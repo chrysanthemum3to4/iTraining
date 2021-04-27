@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="回答依頼テンプレート_新" max_length="40" name="x_550277_poc_train_kaitouyouken_tempate" sizeclass="2" type="collection">
+        <element choice="1" label="回答方式" max_length="40" name="answer_method" type="string">
+            <choice>
+                <element inactive_on_update="false" label="ファイル" language="ja" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="フラグ" language="ja" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="コメント" language="ja" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element label="回答フラグ1＿選択内容" max_length="40" name="ans_flg1_contents" type="string"/>
+        <element label="回答フラグ2＿選択内容" max_length="40" name="ans_flg2_contents" type="string"/>
+        <element label="回答フラグ3＿選択内容" max_length="40" name="ans_flg3_contents" type="string"/>
+        <element label="回答依頼コピー新規作成フラグ" max_length="40" name="copytask" type="boolean"/>
+        <element choice="1" label="督促条件" max_length="40" name="dunning_conditions" type="string">
+            <choice>
+                <element inactive_on_update="false" label="3日前" language="ja" sequence="0" value="3日前"/>
+                <element inactive_on_update="false" label="1週間前" language="ja" sequence="1" value="1週間前"/>
+            </choice>
+        </element>
+        <element choice="1" label="期限到来後_督促条件" max_length="40" name="dunning_conditions_delay" type="string">
+            <choice>
+                <element inactive_on_update="false" label="選択肢 1" language="ja" sequence="0" value="選択肢 1"/>
+                <element inactive_on_update="false" label="選択肢 2" language="ja" sequence="1" value="選択肢 2"/>
+                <element inactive_on_update="false" label="選択肢 3" language="ja" sequence="2" value="選択肢 3"/>
+            </choice>
+        </element>
+        <element label="回答用書式" max_length="40" name="file_attachment" type="file_attachment"/>
+        <element label="ファイル添付要否フラグ" max_length="40" name="file_attachment_flag" type="boolean"/>
+        <element label="回答要件" mandatory="true" max_length="1000" name="kaitouyouken" type="string"/>
+        <element label="回答要件名称" mandatory="true" max_length="40" name="kaitouyouken_name" type="string"/>
+        <element label="督促メール本文" max_length="400" name="mail_body" type="string"/>
+        <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="number" read_only="true" type="string" use_dynamic_default="true"/>
+        <element label="依頼元情報（URL、テキスト）" max_length="10000" name="request_src_info" type="string"/>
+        <element label="依頼メール本文" max_length="400" name="req_mail_body" type="string"/>
+    </element>
+</database>

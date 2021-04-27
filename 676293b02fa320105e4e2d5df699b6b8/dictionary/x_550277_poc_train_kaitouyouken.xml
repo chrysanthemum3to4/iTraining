@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="回答依頼" max_length="40" name="x_550277_poc_train_kaitouyouken" sizeclass="8" type="collection">
+    <element extends="task" label="回答依頼" max_length="40" name="x_550277_poc_train_kaitouyouken" sizeclass="11" type="collection">
         <element label="承認フロー" max_length="32" name="approval_flow" reference="x_550277_poc_train_approval_flow" type="reference"/>
         <element label="承認フロー" max_length="32" name="approval_flow2" reference="x_550277_poc_train_approval_flow" type="reference"/>
         <element label="承認フロー" max_length="32" name="approval_flow3" reference="x_550277_poc_train_approval_flow" type="reference"/>
@@ -16,7 +16,7 @@
         <element attributes="encode_utf8=false" label="三次承認者" max_length="32" name="approver_3_3" reference="sys_user" type="reference"/>
         <element attributes="encode_utf8=false" label="四次承認者" max_length="32" name="approver_3_4" reference="sys_user" type="reference"/>
         <element label="回答依頼コピー新規作成フラグ" max_length="40" name="copytask" type="boolean"/>
-        <element label="ファイル添付要否フラグ" max_length="40" name="file_attachment_flag" type="boolean"/>
+        <element label="依頼メール_ファイル添付要否" max_length="40" name="file_attachment_flag" type="boolean"/>
         <element label="回答様式" max_length="40" name="file_attahment" type="file_attachment"/>
         <element attributes="encode_utf8=false" label="回答依頼発信者" mandatory="true" max_length="32" name="iraimoto" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="依頼元情報（URL、テキスト）" max_length="10000" name="iraimotojouhou" type="string"/>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="dunning_conditions_delay" table="x_550277_poc_train_kaitouyouken_tempate" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>dunning_conditions_delay</element>
+            <name>x_550277_poc_train_kaitouyouken_tempate</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>dev057221</sys_created_by>
+            <sys_created_on>2021-04-26 04:08:51</sys_created_on>
+            <sys_id>cf7fddbc2fb320105e4e2d5df699b634</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>dunning_conditions_delay</sys_name>
+            <sys_package display_value="poc_training" source="x_550277_poc_train">676293b02fa320105e4e2d5df699b6b8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
+            <sys_update_name>sys_choice_x_550277_poc_train_kaitouyouken_tempate_dunning_conditions_delay</sys_update_name>
+            <sys_updated_by>dev057221</sys_updated_by>
+            <sys_updated_on>2021-04-26 04:08:51</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dunning_conditions_delay</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>選択肢 1</label>
+            <language>ja</language>
+            <name>x_550277_poc_train_kaitouyouken_tempate</name>
+            <sequence>0</sequence>
+            <sys_created_by>dev057221</sys_created_by>
+            <sys_created_on>2021-04-26 04:08:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>877fddbc2fb320105e4e2d5df699b634</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dev057221</sys_updated_by>
+            <sys_updated_on>2021-04-26 04:08:51</sys_updated_on>
+            <value>選択肢 1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dunning_conditions_delay</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>選択肢 2</label>
+            <language>ja</language>
+            <name>x_550277_poc_train_kaitouyouken_tempate</name>
+            <sequence>1</sequence>
+            <sys_created_by>dev057221</sys_created_by>
+            <sys_created_on>2021-04-26 04:08:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>037fddbc2fb320105e4e2d5df699b636</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dev057221</sys_updated_by>
+            <sys_updated_on>2021-04-26 04:08:51</sys_updated_on>
+            <value>選択肢 2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dunning_conditions_delay</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>選択肢 3</label>
+            <language>ja</language>
+            <name>x_550277_poc_train_kaitouyouken_tempate</name>
+            <sequence>2</sequence>
+            <sys_created_by>dev057221</sys_created_by>
+            <sys_created_on>2021-04-26 04:08:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>837fddbc2fb320105e4e2d5df699b637</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dev057221</sys_updated_by>
+            <sys_updated_on>2021-04-26 04:08:51</sys_updated_on>
+            <value>選択肢 3</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
