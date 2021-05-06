@@ -1481,11 +1481,11 @@
         <sys_created_on>2021-04-15 06:48:03</sys_created_on>
         <sys_id>047a11512f2720105e4e2d5df699b675</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>レコード</sys_name>
         <sys_package display_value="poc_training" source="x_550277_poc_train">676293b02fa320105e4e2d5df699b6b8</sys_package>
         <sys_policy/>
         <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_bb505d592fe320105e4e2d5df699b6b1_current_ja</sys_update_name>
         <sys_updated_by>dev057221</sys_updated_by>
         <sys_updated_on>2021-04-15 06:48:03</sys_updated_on>
         <url/>
@@ -1504,11 +1504,11 @@
         <sys_created_on>2021-04-15 06:48:03</sys_created_on>
         <sys_id>0c7a11512f2720105e4e2d5df699b67a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>変更されたフィールド</sys_name>
         <sys_package display_value="poc_training" source="x_550277_poc_train">676293b02fa320105e4e2d5df699b6b8</sys_package>
         <sys_policy/>
         <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_bb505d592fe320105e4e2d5df699b6b1_changed_fields_ja</sys_update_name>
         <sys_updated_by>dev057221</sys_updated_by>
         <sys_updated_on>2021-04-15 06:48:03</sys_updated_on>
         <url/>
@@ -1527,11 +1527,11 @@
         <sys_created_on>2021-04-15 06:48:03</sys_created_on>
         <sys_id>487a11512f2720105e4e2d5df699b67f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>テーブル名</sys_name>
         <sys_package display_value="poc_training" source="x_550277_poc_train">676293b02fa320105e4e2d5df699b6b8</sys_package>
         <sys_policy/>
         <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_bb505d592fe320105e4e2d5df699b6b1_table_name_ja</sys_update_name>
         <sys_updated_by>dev057221</sys_updated_by>
         <sys_updated_on>2021-04-15 06:48:03</sys_updated_on>
         <url/>

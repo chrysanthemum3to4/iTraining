@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="回答依頼テンプレート_新" max_length="40" name="x_550277_poc_train_kaitouyouken_tempate" sizeclass="2" type="collection">
+    <element label="回答依頼テンプレート_新" max_length="40" name="x_550277_poc_train_kaitouyouken_tempate" sizeclass="0" type="collection">
         <element choice="1" label="回答方式" max_length="40" name="answer_method" type="string">
             <choice>
                 <element inactive_on_update="false" label="ファイル" language="ja" sequence="0" value="1"/>

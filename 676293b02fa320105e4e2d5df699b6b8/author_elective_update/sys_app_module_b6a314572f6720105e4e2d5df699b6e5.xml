@@ -65,7 +65,7 @@
         <update_guid_history>32a31457236720106374518b78c115e8:115790381</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Imp Tmpl X 550277 Poc Train Approval Flow">47141c572f6720105e4e2d5df699b6ec</sys_audit_delete>
+        <sys_audit_delete display_value="">47141c572f6720105e4e2d5df699b6ec</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>dev057221</sys_created_by>
         <sys_created_on>2021-04-21 06:48:39</sys_created_on>
