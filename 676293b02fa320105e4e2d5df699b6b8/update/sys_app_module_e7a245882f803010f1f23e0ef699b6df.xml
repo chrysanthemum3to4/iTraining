@@ -17,7 +17,7 @@
         <name>x_550277_poc_train_kaitouyouken</name>
         <order>30</order>
         <override_menu_roles>false</override_menu_roles>
-        <query>sysparm_view=changeview</query>
+        <query>&amp;sysparm_view=changeview</query>
         <report/>
         <roles/>
         <sys_class_name>sys_app_module</sys_class_name>
@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e7a245882f803010f1f23e0ef699b6df</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name>回答依頼表示テスト</sys_name>
         <sys_overrides/>
         <sys_package display_value="poc_training" source="x_550277_poc_train">676293b02fa320105e4e2d5df699b6b8</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
         <sys_update_name>sys_app_module_e7a245882f803010f1f23e0ef699b6df</sys_update_name>
         <sys_updated_by>dev057221</sys_updated_by>
-        <sys_updated_on>2021-05-07 05:40:30</sys_updated_on>
+        <sys_updated_on>2021-05-07 05:56:04</sys_updated_on>
         <timeline_page/>
         <title>回答依頼表示テスト</title>
         <uncancelable>false</uncancelable>
