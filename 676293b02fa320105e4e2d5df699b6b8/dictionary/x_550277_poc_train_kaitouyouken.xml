@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="kaitouyouken" max_length="40" name="x_550277_poc_train_kaitouyouken" sizeclass="4" type="collection">
+    <element extends="task" label="kaitouyouken" max_length="40" name="x_550277_poc_train_kaitouyouken" sizeclass="11" type="collection">
         <element label="承認フロー" max_length="32" name="approval_flow" reference="x_550277_poc_train_approval_flow" type="reference"/>
         <element label="承認フロー" max_length="32" name="approval_flow2" reference="x_550277_poc_train_approval_flow" type="reference"/>
         <element label="承認フロー" max_length="32" name="approval_flow3" reference="x_550277_poc_train_approval_flow" type="reference"/>

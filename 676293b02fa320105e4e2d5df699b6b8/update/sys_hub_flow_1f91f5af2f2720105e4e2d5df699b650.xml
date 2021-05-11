@@ -6,13 +6,13 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build/>
+        <compiler_build>glide-paris-06-24-2020__patch1-hotfix3-09-23-2020</compiler_build>
         <copied_from/>
         <copied_from_name/>
         <description/>
         <internal_name>poc_approval_10</internal_name>
         <label_cache>[{"name":"Updated_1.current","label":"トリガー➛回答タスク Record","reference":"x_550277_poc_train_kaitou_task","reference_display":"回答タスク","type":"reference","base_type":"reference","attributes":{}},{"name":"4da81576-5638-49dd-91dd-25bf395abcab.table_name","label":"2➛回答タスク テーブル","reference":"x_550277_poc_train_kaitou_task","reference_display":"回答タスク","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4da81576-5638-49dd-91dd-25bf395abcab.record","label":"2➛回答タスク Record","reference":"x_550277_poc_train_kaitou_task","reference_display":"回答タスク","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.assigned_to.u_organization_cd","label":"トリガー➛回答タスク Record➛回答社員➛組織コード","reference":"","reference_display":"組織コード","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"u_organization_cd"},{"name":"Updated_1.run_start_time","label":"トリガー➛実行開始時間","type":"glide_date_time","base_type":"glide_date_time","attributes":{"test_input_hidden":"true"}},{"name":"Updated_1.current.assigned_to.sys_id","label":"トリガー➛回答タスク Record➛回答社員➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"Updated_1.current.assigned_to","label":"トリガー➛回答タスク Record➛回答社員","reference":"sys_user","reference_display":"ユーザー","type":"reference","base_type":"reference","parent_table_name":"x_550277_poc_train_kaitou_task","column_name":"assigned_to"},{"name":"Updated_1.current.sys_id","label":"トリガー➛回答タスク Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_550277_poc_train_kaitou_task","column_name":"sys_id"},{"name":"Updated_1.current.parent.sys_id","label":"トリガー➛回答タスク Record➛回答要件➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_550277_poc_train_kaitouyouken","column_name":"sys_id"},{"name":"6ea413d7-33e6-4376-bc2d-c98d1afcbe87.table_name","label":"1➛承認履歴 テーブル","reference":"x_550277_poc_train_approval_history","reference_display":"承認履歴","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6ea413d7-33e6-4376-bc2d-c98d1afcbe87.record","label":"1➛承認履歴 Record","reference":"x_550277_poc_train_approval_history","reference_display":"承認履歴","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
-        <latest_snapshot>e845ba3f2f2720105e4e2d5df699b6de</latest_snapshot>
+        <latest_snapshot>a7c4f5552fc03010f1f23e0ef699b6cf</latest_snapshot>
         <master_snapshot>e845ba3f2f2720105e4e2d5df699b6de</master_snapshot>
         <name>POC_Approval_10</name>
         <natlang/>
@@ -115,7 +115,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
         <comment>トリガ―レコードの「更新前ステータス」を「ステータス」と同一値に更新する。</comment>
-        <compiled_snapshot/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="POC_Approval_10">1f91f5af2f2720105e4e2d5df699b650</flow>
         <order>2</order>
@@ -124,10 +124,10 @@
         <sys_created_by>dev057221</sys_created_by>
         <sys_created_on>2021-04-22 08:25:13</sys_created_on>
         <sys_id>2bc3bdef2f2720105e4e2d5df699b639</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
         <sys_updated_by>dev057221</sys_updated_by>
-        <sys_updated_on>2021-04-23 07:49:43</sys_updated_on>
+        <sys_updated_on>2021-05-10 05:14:41</sys_updated_on>
         <ui_id>4da81576-5638-49dd-91dd-25bf395abcab</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2bc3bdef2f2720105e4e2d5df699b639"/>
@@ -202,7 +202,7 @@
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent/>
         <comment>承認履歴レコード追加。「処理者」は回答時は回答者、承認時は承認者を設定する。「担当組織」は処理者のsys_user.組織コード　を設定。</comment>
-        <compiled_snapshot/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
         <display_text/>
         <flow display_value="POC_Approval_10">1f91f5af2f2720105e4e2d5df699b650</flow>
         <order>1</order>
@@ -211,10 +211,10 @@
         <sys_created_by>dev057221</sys_created_by>
         <sys_created_on>2021-04-22 08:25:13</sys_created_on>
         <sys_id>ebc3bdef2f2720105e4e2d5df699b632</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
         <sys_updated_by>dev057221</sys_updated_by>
-        <sys_updated_on>2021-04-23 07:49:43</sys_updated_on>
+        <sys_updated_on>2021-05-10 05:14:41</sys_updated_on>
         <ui_id>6ea413d7-33e6-4376-bc2d-c98d1afcbe87</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ebc3bdef2f2720105e4e2d5df699b632"/>
@@ -582,7 +582,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
         <comment>トリガ―レコードの「更新前ステータス」を「ステータス」と同一値に更新する。</comment>
-        <compiled_snapshot/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="POC_Approval_10">1f91f5af2f2720105e4e2d5df699b650</flow>
         <order>2</order>
@@ -591,10 +591,10 @@
         <sys_created_by>dev057221</sys_created_by>
         <sys_created_on>2021-04-22 08:25:13</sys_created_on>
         <sys_id>2bc3bdef2f2720105e4e2d5df699b639</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
         <sys_updated_by>dev057221</sys_updated_by>
-        <sys_updated_on>2021-04-23 07:49:43</sys_updated_on>
+        <sys_updated_on>2021-05-10 05:14:41</sys_updated_on>
         <ui_id>4da81576-5638-49dd-91dd-25bf395abcab</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2bc3bdef2f2720105e4e2d5df699b639"/>
@@ -669,7 +669,7 @@
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent/>
         <comment>承認履歴レコード追加。「処理者」は回答時は回答者、承認時は承認者を設定する。「担当組織」は処理者のsys_user.組織コード　を設定。</comment>
-        <compiled_snapshot/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
         <display_text/>
         <flow display_value="POC_Approval_10">1f91f5af2f2720105e4e2d5df699b650</flow>
         <order>1</order>
@@ -678,10 +678,10 @@
         <sys_created_by>dev057221</sys_created_by>
         <sys_created_on>2021-04-22 08:25:13</sys_created_on>
         <sys_id>ebc3bdef2f2720105e4e2d5df699b632</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
         <sys_updated_by>dev057221</sys_updated_by>
-        <sys_updated_on>2021-04-23 07:49:43</sys_updated_on>
+        <sys_updated_on>2021-05-10 05:14:41</sys_updated_on>
         <ui_id>6ea413d7-33e6-4376-bc2d-c98d1afcbe87</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ebc3bdef2f2720105e4e2d5df699b632"/>
@@ -797,9 +797,9 @@
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=1f91f5af2f2720105e4e2d5df699b650^sys_idNOT IN8545fa3f2f2720105e4e2d5df699b66e"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
         <binding_strategy>com.snc.process_flow.engine.binding.Every</binding_strategy>
-        <plan/>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"8545fa3f2f2720105e4e2d5df699b66e","name":"plan"}}</plan>
         <plan_id>1f91f5af2f2720105e4e2d5df699b650</plan_id>
-        <snapshot>e845ba3f2f2720105e4e2d5df699b6de</snapshot>
+        <snapshot>a7c4f5552fc03010f1f23e0ef699b6cf</snapshot>
         <sys_created_by>dev057221</sys_created_by>
         <sys_created_on>2021-04-23 07:49:42</sys_created_on>
         <sys_domain>global</sys_domain>
