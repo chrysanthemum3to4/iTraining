@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="kaitou_task" max_length="40" name="x_550277_poc_train_kaitou_task" sizeclass="5" type="collection">
+    <element extends="task" label="kaitou_task" max_length="40" name="x_550277_poc_train_kaitou_task" sizeclass="2" type="collection">
         <element label="回答ファイル" max_length="40" name="file" type="file_attachment"/>
         <element choice="3" default="1" label="更新前ステータス" mandatory="true" max_length="40" name="prev_stat" type="integer">
             <choice>
@@ -11,6 +11,13 @@
                 <element inactive_on_update="false" label="完了" language="ja" sequence="5" value="6"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="差戻理由" max_length="400" name="reason_send_back" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="差戻パターン" max_length="40" name="send_back_ptn" type="string">
+            <choice>
+                <element inactive_on_update="false" label="回答者まで差戻" language="ja" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="前回承認者まで差戻" language="ja" sequence="1" value="2"/>
+            </choice>
+        </element>
         <element label="回答フラグ1" max_length="40" name="u_boolean_1" type="boolean"/>
         <element label="回答フラグ2" max_length="40" name="u_boolean_2" type="boolean"/>
         <element label="回答フラグ3" max_length="40" name="u_boolean_3" type="boolean"/>
@@ -19,5 +26,6 @@
         <element attributes="encode_utf8=false" label="四次承認者" max_length="32" name="u_reference_7" reference="sys_user" type="reference"/>
         <element attributes="encode_utf8=false" label="三次承認者" max_length="32" name="u_reference_9" reference="sys_user" type="reference" use_dependent_field="true"/>
         <element attributes="edge_encryption_enabled=true" label="回答コメント" max_length="1024" name="u_string_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="任意コメント欄" max_length="300" name="u_string_2" type="string"/>
     </element>
 </database>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="DELETE">
+        <active>true</active>
+        <condition table="x_550277_poc_train_kaitouyouken">state=2^EQ<item display_value="起票中・回付情報" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="2"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>起票中・基本事項</label>
+        <name>起票中・回付情報</name>
+        <order>200</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-05-19 09:13:16</sys_created_on>
+        <sys_id>6eb1cd102fd43010f1f23e0ef699b6d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>起票中・回付情報</sys_name>
+        <sys_package display_value="poc_training" source="x_550277_poc_train">676293b02fa320105e4e2d5df699b6b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
+        <sys_update_name>sys_process_flow_6eb1cd102fd43010f1f23e0ef699b6d7</sys_update_name>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-05-19 09:13:16</sys_updated_on>
+        <table>x_550277_poc_train_kaitouyouken</table>
+    </sys_process_flow>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</application>
+        <file_path/>
+        <instance_id>fcfc25f1dbba8c5049eac59705961959</instance_id>
+        <instance_name>dev99610</instance_name>
+        <name>sys_process_flow_6eb1cd102fd43010f1f23e0ef699b6d7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow"><sys_process_flow action="INSERT_OR_UPDATE"><active>true</active><condition table="x_550277_poc_train_kaitouyouken">state=2^EQ<item display_value="起票中・回付情報" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="2"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><description/><label>起票中・基本事項</label><name>起票中・回付情報</name><order>200</order><sys_class_name>sys_process_flow</sys_class_name><sys_created_by>dev057221</sys_created_by><sys_created_on>2021-05-19 09:13:16</sys_created_on><sys_id>6eb1cd102fd43010f1f23e0ef699b6d7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>起票中・回付情報</sys_name><sys_package display_value="poc_training" source="x_550277_poc_train">676293b02fa320105e4e2d5df699b6b8</sys_package><sys_policy/><sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope><sys_update_name>sys_process_flow_6eb1cd102fd43010f1f23e0ef699b6d7</sys_update_name><sys_updated_by>dev057221</sys_updated_by><sys_updated_on>2021-05-19 09:13:16</sys_updated_on><table>x_550277_poc_train_kaitouyouken</table></sys_process_flow></record_update>]]></payload>
+        <payload_hash>1897157893</payload_hash>
+        <record_name>起票中・回付情報</record_name>
+        <reverted_from/>
+        <source>ded0904c2f003010f1f23e0ef699b6f3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-05-19 09:13:16</sys_created_on>
+        <sys_id>b6b1cd102fd43010f1f23e0ef699b6d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17983e691120000001</sys_recorded_at>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-05-19 09:13:16</sys_updated_on>
+        <type>フローフォーマッター</type>
+        <update_guid>feb1cd10a0d4301048d78fdf4250d4d8</update_guid>
+        <update_guid_history>feb1cd10a0d4301048d78fdf4250d4d8:1897157893</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-05-19 09:15:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_process_flow">sys_process_flow</sys_db_object>
+        <sys_id>19d311fa95654b80b325a331efb17210</sys_id>
+        <sys_metadata>6eb1cd102fd43010f1f23e0ef699b6d7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>起票中・回付情報</sys_name>
+        <sys_package display_value="poc_training" source="x_550277_poc_train">676293b02fa320105e4e2d5df699b6b8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
+        <sys_scope_delete display_value="">049492efd311477580ded372c0de8799</sys_scope_delete>
+        <sys_update_name>sys_process_flow_6eb1cd102fd43010f1f23e0ef699b6d7</sys_update_name>
+        <sys_update_version display_value="sys_process_flow_6eb1cd102fd43010f1f23e0ef699b6d7">b6b1cd102fd43010f1f23e0ef699b6d9</sys_update_version>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-05-19 09:15:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

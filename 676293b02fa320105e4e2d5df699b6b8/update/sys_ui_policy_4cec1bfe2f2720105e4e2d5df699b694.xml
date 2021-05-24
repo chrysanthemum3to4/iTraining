@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
         <active>true</active>
-        <conditions table="x_550277_poc_train_kaitouyouken">u_string_1=2^ORu_string_1=3^EQ<item display_value="フラグ" endquery="false" field="u_string_1" goto="false" newquery="false" operator="=" or="false" value="2"/>
-            <item display_value="コメント" endquery="false" field="u_string_1" goto="false" newquery="false" operator="=" or="true" value="3"/>
+        <conditions table="x_550277_poc_train_kaitouyouken">u_string_1=2^ORu_string_1=3^EQ<item display_value="選択肢からの回答" endquery="false" field="u_string_1" goto="false" newquery="false" operator="=" or="false" value="2"/>
+            <item display_value="任意コメントによる回答" endquery="false" field="u_string_1" goto="false" newquery="false" operator="=" or="true" value="3"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </conditions>
         <description/>

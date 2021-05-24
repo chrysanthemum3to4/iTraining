@@ -1,18 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="A.回答ファイル" section_id="e62860cd2fa720105e4e2d5df699b647" sys_domain="global" table="x_550277_poc_train_kaitou_task" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>dev057221</sys_created_by>
+            <sys_created_on>2021-05-20 05:23:46</sys_created_on>
+            <sys_id>2ac6d5202fd03010f1f23e0ef699b6fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dev057221</sys_updated_by>
+            <sys_updated_on>2021-05-20 05:23:46</sys_updated_on>
+            <text>※ユニークとなるようにファイル名の先頭に回答者の名前等を付けてください。</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>file</element>
             <position>0</position>
             <sys_created_by>dev057221</sys_created_by>
-            <sys_created_on>2021-04-20 04:30:23</sys_created_on>
-            <sys_id>4ceae2fa2fa320105e4e2d5df699b63d</sys_id>
+            <sys_created_on>2021-05-20 05:23:46</sys_created_on>
+            <sys_id>6ac619202fd03010f1f23e0ef699b600</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="A.回答ファイル" display_value="A.回答ファイル" name="x_550277_poc_train_kaitou_task" sys_domain="global" view="Default view">e62860cd2fa720105e4e2d5df699b647</sys_ui_section>
             <sys_updated_by>dev057221</sys_updated_by>
-            <sys_updated_on>2021-04-20 04:30:23</sys_updated_on>
+            <sys_updated_on>2021-05-20 05:23:46</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>2ac6d5202fd03010f1f23e0ef699b6fd</element>
+            <position>1</position>
+            <sys_created_by>dev057221</sys_created_by>
+            <sys_created_on>2021-05-20 05:23:46</sys_created_on>
+            <sys_id>eec619202fd03010f1f23e0ef699b600</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="A.回答ファイル" display_value="A.回答ファイル" name="x_550277_poc_train_kaitou_task" sys_domain="global" view="Default view">e62860cd2fa720105e4e2d5df699b647</sys_ui_section>
+            <sys_updated_by>dev057221</sys_updated_by>
+            <sys_updated_on>2021-05-20 05:23:46</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>A.回答ファイル</caption>

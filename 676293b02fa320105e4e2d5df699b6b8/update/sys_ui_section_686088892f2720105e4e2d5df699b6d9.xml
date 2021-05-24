@@ -1,175 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_section caption="" section_id="686088892f2720105e4e2d5df699b6d9" sys_domain="global" table="x_550277_poc_train_kaitouyouken" version="3" view="">
+    <sys_ui_section caption="基本条件" section_id="686088892f2720105e4e2d5df699b6d9" sys_domain="global" table="x_550277_poc_train_kaitouyouken" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>number</element>
             <position>0</position>
             <sys_created_by>dev057221</sys_created_by>
-            <sys_created_on>2021-04-23 02:19:11</sys_created_on>
-            <sys_id>6b99adf72f6320105e4e2d5df699b6de</sys_id>
+            <sys_created_on>2021-05-20 00:18:08</sys_created_on>
+            <sys_id>21d090642f103010f1f23e0ef699b61b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_550277_poc_train_kaitouyouken" sys_domain="global" view="Default view">686088892f2720105e4e2d5df699b6d9</sys_ui_section>
+            <sys_ui_section caption="基本条件" display_value="基本条件" name="x_550277_poc_train_kaitouyouken" sys_domain="global" view="Default view">686088892f2720105e4e2d5df699b6d9</sys_ui_section>
             <sys_updated_by>dev057221</sys_updated_by>
-            <sys_updated_on>2021-04-23 02:19:11</sys_updated_on>
+            <sys_updated_on>2021-05-20 00:18:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>document_type</element>
+            <position>1</position>
+            <sys_created_by>dev057221</sys_created_by>
+            <sys_created_on>2021-05-20 00:18:08</sys_created_on>
+            <sys_id>a1d090642f103010f1f23e0ef699b61b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="基本条件" display_value="基本条件" name="x_550277_poc_train_kaitouyouken" sys_domain="global" view="Default view">686088892f2720105e4e2d5df699b6d9</sys_ui_section>
+            <sys_updated_by>dev057221</sys_updated_by>
+            <sys_updated_on>2021-05-20 00:18:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>kaitouyouken_name</element>
-            <position>1</position>
-            <sys_created_by>dev057221</sys_created_by>
-            <sys_created_on>2021-04-23 02:19:11</sys_created_on>
-            <sys_id>eb99adf72f6320105e4e2d5df699b6de</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_550277_poc_train_kaitouyouken" sys_domain="global" view="Default view">686088892f2720105e4e2d5df699b6d9</sys_ui_section>
-            <sys_updated_by>dev057221</sys_updated_by>
-            <sys_updated_on>2021-04-23 02:19:11</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>kaitouyouken</element>
             <position>2</position>
             <sys_created_by>dev057221</sys_created_by>
-            <sys_created_on>2021-04-23 02:19:11</sys_created_on>
-            <sys_id>6f99adf72f6320105e4e2d5df699b6de</sys_id>
+            <sys_created_on>2021-05-20 00:18:08</sys_created_on>
+            <sys_id>25d090642f103010f1f23e0ef699b61b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_550277_poc_train_kaitouyouken" sys_domain="global" view="Default view">686088892f2720105e4e2d5df699b6d9</sys_ui_section>
+            <sys_ui_section caption="基本条件" display_value="基本条件" name="x_550277_poc_train_kaitouyouken" sys_domain="global" view="Default view">686088892f2720105e4e2d5df699b6d9</sys_ui_section>
             <sys_updated_by>dev057221</sys_updated_by>
-            <sys_updated_on>2021-04-23 02:19:11</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>iraimotojouhou</element>
-            <position>3</position>
-            <sys_created_by>dev057221</sys_created_by>
-            <sys_created_on>2021-04-23 02:19:11</sys_created_on>
-            <sys_id>ef99adf72f6320105e4e2d5df699b6de</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_550277_poc_train_kaitouyouken" sys_domain="global" view="Default view">686088892f2720105e4e2d5df699b6d9</sys_ui_section>
-            <sys_updated_by>dev057221</sys_updated_by>
-            <sys_updated_on>2021-04-23 02:19:11</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>req_mail_body</element>
-            <position>4</position>
-            <sys_created_by>dev057221</sys_created_by>
-            <sys_created_on>2021-04-23 02:19:11</sys_created_on>
-            <sys_id>6399adf72f6320105e4e2d5df699b6df</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_550277_poc_train_kaitouyouken" sys_domain="global" view="Default view">686088892f2720105e4e2d5df699b6d9</sys_ui_section>
-            <sys_updated_by>dev057221</sys_updated_by>
-            <sys_updated_on>2021-04-23 02:19:11</sys_updated_on>
+            <sys_updated_on>2021-05-20 00:18:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>5</position>
+            <position>3</position>
             <sys_created_by>dev057221</sys_created_by>
-            <sys_created_on>2021-04-23 02:19:11</sys_created_on>
-            <sys_id>e399adf72f6320105e4e2d5df699b6df</sys_id>
+            <sys_created_on>2021-05-20 00:18:08</sys_created_on>
+            <sys_id>a5d090642f103010f1f23e0ef699b61b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_550277_poc_train_kaitouyouken" sys_domain="global" view="Default view">686088892f2720105e4e2d5df699b6d9</sys_ui_section>
+            <sys_ui_section caption="基本条件" display_value="基本条件" name="x_550277_poc_train_kaitouyouken" sys_domain="global" view="Default view">686088892f2720105e4e2d5df699b6d9</sys_ui_section>
             <sys_updated_by>dev057221</sys_updated_by>
-            <sys_updated_on>2021-04-23 02:19:11</sys_updated_on>
+            <sys_updated_on>2021-05-20 00:18:08</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>state</element>
-            <position>6</position>
+            <position>4</position>
             <sys_created_by>dev057221</sys_created_by>
-            <sys_created_on>2021-04-23 02:19:11</sys_created_on>
-            <sys_id>6799adf72f6320105e4e2d5df699b6df</sys_id>
+            <sys_created_on>2021-05-20 00:18:08</sys_created_on>
+            <sys_id>29d090642f103010f1f23e0ef699b61b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_550277_poc_train_kaitouyouken" sys_domain="global" view="Default view">686088892f2720105e4e2d5df699b6d9</sys_ui_section>
+            <sys_ui_section caption="基本条件" display_value="基本条件" name="x_550277_poc_train_kaitouyouken" sys_domain="global" view="Default view">686088892f2720105e4e2d5df699b6d9</sys_ui_section>
             <sys_updated_by>dev057221</sys_updated_by>
-            <sys_updated_on>2021-04-23 02:19:11</sys_updated_on>
+            <sys_updated_on>2021-05-20 00:18:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>iraimoto</element>
-            <position>7</position>
+            <position>5</position>
             <sys_created_by>dev057221</sys_created_by>
-            <sys_created_on>2021-04-23 02:19:11</sys_created_on>
-            <sys_id>e799adf72f6320105e4e2d5df699b6df</sys_id>
+            <sys_created_on>2021-05-20 00:18:08</sys_created_on>
+            <sys_id>a9d090642f103010f1f23e0ef699b61b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_550277_poc_train_kaitouyouken" sys_domain="global" view="Default view">686088892f2720105e4e2d5df699b6d9</sys_ui_section>
+            <sys_ui_section caption="基本条件" display_value="基本条件" name="x_550277_poc_train_kaitouyouken" sys_domain="global" view="Default view">686088892f2720105e4e2d5df699b6d9</sys_ui_section>
             <sys_updated_by>dev057221</sys_updated_by>
-            <sys_updated_on>2021-04-23 02:19:11</sys_updated_on>
+            <sys_updated_on>2021-05-20 00:18:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_glide_date_2</element>
-            <position>8</position>
+            <position>6</position>
             <sys_created_by>dev057221</sys_created_by>
-            <sys_created_on>2021-04-23 02:19:11</sys_created_on>
-            <sys_id>6b99adf72f6320105e4e2d5df699b6df</sys_id>
+            <sys_created_on>2021-05-20 00:18:08</sys_created_on>
+            <sys_id>2dd090642f103010f1f23e0ef699b61b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_550277_poc_train_kaitouyouken" sys_domain="global" view="Default view">686088892f2720105e4e2d5df699b6d9</sys_ui_section>
+            <sys_ui_section caption="基本条件" display_value="基本条件" name="x_550277_poc_train_kaitouyouken" sys_domain="global" view="Default view">686088892f2720105e4e2d5df699b6d9</sys_ui_section>
             <sys_updated_by>dev057221</sys_updated_by>
-            <sys_updated_on>2021-04-23 02:19:11</sys_updated_on>
+            <sys_updated_on>2021-05-20 00:18:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>scheduled_date</element>
-            <position>9</position>
+            <position>7</position>
             <sys_created_by>dev057221</sys_created_by>
-            <sys_created_on>2021-04-23 02:19:11</sys_created_on>
-            <sys_id>eb99adf72f6320105e4e2d5df699b6df</sys_id>
+            <sys_created_on>2021-05-20 00:18:08</sys_created_on>
+            <sys_id>add090642f103010f1f23e0ef699b61b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_550277_poc_train_kaitouyouken" sys_domain="global" view="Default view">686088892f2720105e4e2d5df699b6d9</sys_ui_section>
+            <sys_ui_section caption="基本条件" display_value="基本条件" name="x_550277_poc_train_kaitouyouken" sys_domain="global" view="Default view">686088892f2720105e4e2d5df699b6d9</sys_ui_section>
             <sys_updated_by>dev057221</sys_updated_by>
-            <sys_updated_on>2021-04-23 02:19:11</sys_updated_on>
+            <sys_updated_on>2021-05-20 00:18:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>responsedeadline</element>
-            <position>10</position>
+            <position>8</position>
             <sys_created_by>dev057221</sys_created_by>
-            <sys_created_on>2021-04-23 02:19:11</sys_created_on>
-            <sys_id>6f99adf72f6320105e4e2d5df699b6df</sys_id>
+            <sys_created_on>2021-05-20 00:18:08</sys_created_on>
+            <sys_id>21d090642f103010f1f23e0ef699b61c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_550277_poc_train_kaitouyouken" sys_domain="global" view="Default view">686088892f2720105e4e2d5df699b6d9</sys_ui_section>
+            <sys_ui_section caption="基本条件" display_value="基本条件" name="x_550277_poc_train_kaitouyouken" sys_domain="global" view="Default view">686088892f2720105e4e2d5df699b6d9</sys_ui_section>
             <sys_updated_by>dev057221</sys_updated_by>
-            <sys_updated_on>2021-04-23 02:19:11</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_boolean_2</element>
-            <position>11</position>
-            <sys_created_by>dev057221</sys_created_by>
-            <sys_created_on>2021-04-23 02:19:11</sys_created_on>
-            <sys_id>ef99adf72f6320105e4e2d5df699b6df</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_550277_poc_train_kaitouyouken" sys_domain="global" view="Default view">686088892f2720105e4e2d5df699b6d9</sys_ui_section>
-            <sys_updated_by>dev057221</sys_updated_by>
-            <sys_updated_on>2021-04-23 02:19:11</sys_updated_on>
+            <sys_updated_on>2021-05-20 00:18:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
-            <caption/>
+            <caption>基本条件</caption>
             <header>false</header>
             <name>x_550277_poc_train_kaitouyouken</name>
             <roles/>
@@ -179,7 +137,7 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>686088892f2720105e4e2d5df699b6d9</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_name>x_550277_poc_train_kaitouyouken</sys_name>
             <sys_overrides/>
             <sys_package display_value="poc_training" source="x_550277_poc_train">676293b02fa320105e4e2d5df699b6b8</sys_package>
@@ -187,7 +145,7 @@
             <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
             <sys_update_name>sys_ui_section_686088892f2720105e4e2d5df699b6d9</sys_update_name>
             <sys_updated_by>dev057221</sys_updated_by>
-            <sys_updated_on>2021-04-14 05:36:07</sys_updated_on>
+            <sys_updated_on>2021-05-20 00:18:08</sys_updated_on>
             <sys_user/>
             <title>true</title>
             <view display_value="デフォルトビュー" name="NULL">Default view</view>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="kaitouyouken" max_length="40" name="x_550277_poc_train_kaitouyouken" sizeclass="11" type="collection">
+    <element extends="task" label="kaitouyouken" max_length="40" name="x_550277_poc_train_kaitouyouken" sizeclass="1" type="collection">
         <element label="承認フロー" max_length="32" name="approval_flow" reference="x_550277_poc_train_approval_flow" type="reference"/>
         <element label="承認フロー" max_length="32" name="approval_flow2" reference="x_550277_poc_train_approval_flow" type="reference"/>
         <element label="承認フロー" max_length="32" name="approval_flow3" reference="x_550277_poc_train_approval_flow" type="reference"/>
@@ -16,6 +16,13 @@
         <element attributes="encode_utf8=false" label="三次承認者" max_length="32" name="approver_3_3" reference="sys_user" type="reference"/>
         <element attributes="encode_utf8=false" label="四次承認者" max_length="32" name="approver_3_4" reference="sys_user" type="reference"/>
         <element label="回答依頼コピー新規作成フラグ" max_length="40" name="copytask" type="boolean"/>
+        <element label="回答要件補足説明資料" max_length="40" name="description_file_attachment" type="file_attachment"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="回答依頼" label="文書種類" max_length="40" name="document_type" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="回答依頼" language="ja" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="テンプレート" language="ja" sequence="1" value="2"/>
+            </choice>
+        </element>
         <element label="依頼メール_ファイル添付要否" max_length="40" name="file_attachment_flag" type="boolean"/>
         <element label="回答様式" max_length="40" name="file_attahment" type="file_attachment"/>
         <element attributes="encode_utf8=false" label="回答依頼発信者" mandatory="true" max_length="32" name="iraimoto" reference="sys_user" type="reference"/>
@@ -50,9 +57,9 @@
         <element attributes="edge_encryption_enabled=true" label="依頼日付" max_length="40" name="u_glide_date_2" read_only="true" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="回答方式" max_length="40" name="u_string_1" type="string">
             <choice>
-                <element inactive_on_update="false" label="ファイル" language="ja" sequence="0" value="1"/>
-                <element inactive_on_update="false" label="フラグ" language="ja" sequence="1" value="2"/>
-                <element inactive_on_update="false" label="コメント" language="ja" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="添付ファイルでの回答" language="ja" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="選択肢からの回答" language="ja" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="任意コメントによる回答" language="ja" sequence="2" value="3"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="回答フラグ1_選択内容" max_length="40" name="u_string_7" type="string"/>

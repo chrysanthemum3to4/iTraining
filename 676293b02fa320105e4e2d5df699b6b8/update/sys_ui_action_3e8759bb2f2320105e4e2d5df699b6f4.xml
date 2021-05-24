@@ -7,7 +7,7 @@
 
 }]]></client_script_v2>
         <comments/>
-        <condition/>
+        <condition>current.getValue('state') === '2'</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>false</form_button_v2>
@@ -15,7 +15,7 @@
         <form_link>false</form_link>
         <form_menu_button_v2>false</form_menu_button_v2>
         <form_style/>
-        <hint/>
+        <hint>回答依頼を発信し、回答タスクを作成します。</hint>
         <isolate_script>false</isolate_script>
         <list_action>false</list_action>
         <list_banner_button>false</list_banner_button>
@@ -66,7 +66,7 @@ if (flag === '1'){
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3e8759bb2f2320105e4e2d5df699b6f4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>回答依頼発信</sys_name>
         <sys_overrides/>
         <sys_package display_value="poc_training" source="x_550277_poc_train">676293b02fa320105e4e2d5df699b6b8</sys_package>
@@ -74,7 +74,7 @@ if (flag === '1'){
         <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
         <sys_update_name>sys_ui_action_3e8759bb2f2320105e4e2d5df699b6f4</sys_update_name>
         <sys_updated_by>dev057221</sys_updated_by>
-        <sys_updated_on>2021-04-23 01:21:34</sys_updated_on>
+        <sys_updated_on>2021-05-19 09:46:10</sys_updated_on>
         <table>x_550277_poc_train_kaitouyouken</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
