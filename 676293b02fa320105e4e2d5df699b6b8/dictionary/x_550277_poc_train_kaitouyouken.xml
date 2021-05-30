@@ -15,6 +15,12 @@
         <element attributes="encode_utf8=false" label="二次承認者" max_length="32" name="approver_3_2" reference="sys_user" type="reference"/>
         <element attributes="encode_utf8=false" label="三次承認者" max_length="32" name="approver_3_3" reference="sys_user" type="reference"/>
         <element attributes="encode_utf8=false" label="四次承認者" max_length="32" name="approver_3_4" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="テスト選択肢個数指定" max_length="40" name="choice_flg" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1つ追加" language="ja" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2つ追加" language="ja" sequence="1" value="2"/>
+            </choice>
+        </element>
         <element label="回答依頼コピー新規作成フラグ" max_length="40" name="copytask" type="boolean"/>
         <element label="回答要件補足説明資料" max_length="40" name="description_file_attachment" type="file_attachment"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="回答依頼" label="文書種類" max_length="40" name="document_type" read_only="true" type="string">
@@ -39,6 +45,14 @@
         <element attributes="edge_encryption_enabled=true" label="依頼メール本文" max_length="400" name="req_mail_body" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="回答期限" mandatory="true" max_length="40" name="responsedeadline" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="回答依頼発信予定日" max_length="40" name="scheduled_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="回答フラグ4_選択内容" max_length="40" name="select_flg_4" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="回答フラグ5_選択内容" max_length="40" name="select_flg_5" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="回答フラグ個数指定" max_length="40" name="select_flg_choice" type="string">
+            <choice>
+                <element inactive_on_update="false" label="１つ追加" language="ja" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="２つ追加" language="ja" sequence="1" value="2"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="督促条件" max_length="40" name="tokusokujouken" type="string">
             <choice>
                 <element inactive_on_update="false" label="３日前" language="ja" sequence="0" value="３日前"/>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>send_back_request</action_name>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <hint/>
+        <isolate_script>true</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>差戻</name>
+        <onclick>inpCheck()</onclick>
+        <order>110</order>
+        <script><![CDATA[//クライアント側差戻し処理（入力チェック）
+function inpCheck() {
+	//差戻しボタンクリック時は「差戻タイプ」の入力必須
+	if ( !g_form.getValue('send_back_ptn') ) {
+		g_form.addInfoMessage('差戻し時は「差戻パターン」を設定してください。');
+		return;
+	}
+
+	//サーバー側処理へ引継ぎ
+	gsftSubmit(null, g_form.getFormElement(),'send_back_request');
+
+}
+
+//windowが"undefined"ならサーバー側関数を実行。
+if (typeof window == 'undefined')
+    serverSendBack();
+
+//差戻処理（サーバー側）
+function serverSendBack() {
+	//入力値を確定
+	current.update();
+	
+	//承認（差戻し）履歴サブフロー呼出し
+	var inputs = {};
+	inputs['inrec'] = current;  //サブフローの入力引数では「Reference」で受ける
+    //notificationバージョンでは使わない。emailバージョンの場合はリンクurlを引数にセットする
+	inputs['inurl'] = '<a href="https://' + gs.getProperty('instance_name') + '.service-now.com/nav_to.do?uri=x_dtsr_kadaikentou_kaitou_task.do?sys_id=' + current.sys_id + '">' + current.number + '</a>';  //メール内のタスクへのリンク文字列
+
+	//サブフローを呼ぶ（差戻しの承認履歴レコードの追加）
+	var outputs = sn_fd.FlowAPI.executeSubflow('POC_Send_Back_Request_email', inputs);
+	//notificationバージョンはこちらを呼ぶ
+	//var outputs = sn_fd.FlowAPI.executeSubflow('POC_Send_Back_Request', inputs);
+
+}
+
+
+// var stnum = parseInt(current.state);  //ステータス値
+// //「ｘ次承認依頼中」の時のみ処理する
+// if (stnum >= 2 && stnum <=5) {  //2～5は n次承認依頼中
+// 	//二次承認者：u_reference_6
+// 	//三次承認者：u_reference_9
+// 	//四次承認者：u_reference_2
+
+// 	var nexFlg = String(stnum - 1);  //ステータスを1減らす
+
+// } else {
+// 	gs.addInfoMessage('このステータスの回答タスクに対する差戻はできません。');
+// }
+
+//ステータス更新
+// current.setValue('prev_stat', current.state);
+// current.setValue('state', nexFlg);
+// current.update();
+
+]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-05-24 09:41:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0f6072f12f543010f1f23e0ef699b63e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>差戻</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="poc_training" source="x_550277_poc_train">676293b02fa320105e4e2d5df699b6b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
+        <sys_update_name>sys_ui_action_0f6072f12f543010f1f23e0ef699b63e</sys_update_name>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-05-24 09:41:39</sys_updated_on>
+        <table/>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>
