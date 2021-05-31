@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_string_7</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-20 08:00:52</sys_created_on>
+        <sys_id>b2fa53be2f2720105e4e2d5df699b639</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_string_7</sys_name>
+        <sys_package display_value="poc_training" source="x_550277_poc_train">676293b02fa320105e4e2d5df699b6b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
+        <sys_update_name>sys_ui_policy_action_b2fa53be2f2720105e4e2d5df699b639</sys_update_name>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-20 08:00:52</sys_updated_on>
+        <table>x_550277_poc_train_kaitouyouken</table>
+        <ui_policy display_value="回答依頼_回答方式_ファイル">01e9d37e2f2720105e4e2d5df699b66a</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</application>
+        <file_path/>
+        <instance_id>83d1acb26fd75e0023b2a9cc5d3ee49c</instance_id>
+        <instance_name>dev25214</instance_name>
+        <name>sys_ui_policy_action_b2fa53be2f2720105e4e2d5df699b639</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>u_string_7</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>dev057221</sys_created_by><sys_created_on>2021-04-20 08:00:52</sys_created_on><sys_id>b2fa53be2f2720105e4e2d5df699b639</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_string_7</sys_name><sys_package display_value="poc_training" source="x_550277_poc_train">676293b02fa320105e4e2d5df699b6b8</sys_package><sys_policy/><sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope><sys_update_name>sys_ui_policy_action_b2fa53be2f2720105e4e2d5df699b639</sys_update_name><sys_updated_by>dev057221</sys_updated_by><sys_updated_on>2021-04-20 08:00:52</sys_updated_on><table>x_550277_poc_train_kaitouyouken</table><ui_policy display_value="回答依頼_回答方式_ファイル">01e9d37e2f2720105e4e2d5df699b66a</ui_policy><visible>false</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>324977599</payload_hash>
+        <record_name>u_string_7</record_name>
+        <reverted_from/>
+        <source>a36293b02fa320105e4e2d5df699b6ba</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-20 08:00:52</sys_created_on>
+        <sys_id>170b53be2f2720105e4e2d5df699b6e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>178ee4bddb70000001</sys_recorded_at>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-20 08:00:52</sys_updated_on>
+        <type>UI ポリシーアクション</type>
+        <update_guid>5f0b53be95272010b3d5f9c185eaccdf</update_guid>
+        <update_guid_history>5f0b53be95272010b3d5f9c185eaccdf:324977599</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-20 08:02:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>3dff10654f7141d886b89f5d21f50359</sys_id>
+        <sys_metadata>b2fa53be2f2720105e4e2d5df699b639</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_string_7</sys_name>
+        <sys_package display_value="poc_training" source="x_550277_poc_train">676293b02fa320105e4e2d5df699b6b8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
+        <sys_scope_delete display_value="">049492efd311477580ded372c0de8799</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_b2fa53be2f2720105e4e2d5df699b639</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_b2fa53be2f2720105e4e2d5df699b639">170b53be2f2720105e4e2d5df699b6e0</sys_update_version>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-20 08:02:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

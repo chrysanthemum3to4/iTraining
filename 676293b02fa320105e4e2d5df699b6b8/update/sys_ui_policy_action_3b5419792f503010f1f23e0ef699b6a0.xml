@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>select_flg_5</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-05-24 02:25:46</sys_created_on>
+        <sys_id>3b5419792f503010f1f23e0ef699b6a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>select_flg_5</sys_name>
+        <sys_package display_value="poc_training" source="x_550277_poc_train">676293b02fa320105e4e2d5df699b6b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
+        <sys_update_name>sys_ui_policy_action_3b5419792f503010f1f23e0ef699b6a0</sys_update_name>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-05-24 02:25:46</sys_updated_on>
+        <table>x_550277_poc_train_kaitouyouken</table>
+        <ui_policy display_value="回答依頼_追加選択項目非表示">da1455792f503010f1f23e0ef699b677</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_四次承認者" label="四次承認者" language="en" table="u_imp_tmpl_x_550277_poc_train_approval_flow">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_四次承認者</element>
+            <help/>
+            <hint/>
+            <label>四次承認者</label>
+            <language>en</language>
+            <name>u_imp_tmpl_x_550277_poc_train_approval_flow</name>
+            <plural>四次承認者s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>dev057221</sys_created_by>
+            <sys_created_on>2021-04-21 09:15:53</sys_created_on>
+            <sys_id>33c570d72fe720105e4e2d5df699b650</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>四次承認者</sys_name>
+            <sys_package display_value="poc_training" source="x_550277_poc_train">676293b02fa320105e4e2d5df699b6b8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
+            <sys_update_name>sys_documentation_u_imp_tmpl_x_550277_poc_train_approval_flow_u_四次承認者_en</sys_update_name>
+            <sys_updated_by>dev057221</sys_updated_by>
+            <sys_updated_on>2021-04-21 09:15:53</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

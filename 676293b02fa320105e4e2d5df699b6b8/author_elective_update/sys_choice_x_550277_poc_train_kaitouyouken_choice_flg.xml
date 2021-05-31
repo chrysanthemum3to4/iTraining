@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="choice_flg" table="x_550277_poc_train_kaitouyouken" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>choice_flg</element>
+            <name>x_550277_poc_train_kaitouyouken</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>dev057221</sys_created_by>
+            <sys_created_on>2021-05-24 02:40:34</sys_created_on>
+            <sys_id>07c79df92f503010f1f23e0ef699b6a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>choice_flg</sys_name>
+            <sys_package display_value="poc_training" source="x_550277_poc_train">676293b02fa320105e4e2d5df699b6b8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
+            <sys_update_name>sys_choice_x_550277_poc_train_kaitouyouken_choice_flg</sys_update_name>
+            <sys_updated_by>dev057221</sys_updated_by>
+            <sys_updated_on>2021-05-24 02:40:34</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>choice_flg</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1つ追加</label>
+            <language>ja</language>
+            <name>x_550277_poc_train_kaitouyouken</name>
+            <sequence>0</sequence>
+            <sys_created_by>dev057221</sys_created_by>
+            <sys_created_on>2021-05-24 02:40:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cbc79df92f503010f1f23e0ef699b6a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dev057221</sys_updated_by>
+            <sys_updated_on>2021-05-24 02:40:34</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>choice_flg</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2つ追加</label>
+            <language>ja</language>
+            <name>x_550277_poc_train_kaitouyouken</name>
+            <sequence>1</sequence>
+            <sys_created_by>dev057221</sys_created_by>
+            <sys_created_on>2021-05-24 02:40:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>83c79df92f503010f1f23e0ef699b6a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dev057221</sys_updated_by>
+            <sys_updated_on>2021-05-24 02:40:35</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

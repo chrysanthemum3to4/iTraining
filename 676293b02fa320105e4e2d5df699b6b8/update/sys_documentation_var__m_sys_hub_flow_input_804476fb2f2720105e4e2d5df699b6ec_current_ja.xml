@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="current" label="レコード" language="ja" table="var__m_sys_hub_flow_input_804476fb2f2720105e4e2d5df699b6ec">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>current</element>
+            <help/>
+            <hint/>
+            <label>レコード</label>
+            <language>ja</language>
+            <name>var__m_sys_hub_flow_input_804476fb2f2720105e4e2d5df699b6ec</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>dev057221</sys_created_by>
+            <sys_created_on>2021-04-23 07:45:16</sys_created_on>
+            <sys_id>0c44b6fb2f2720105e4e2d5df699b60e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>レコード</sys_name>
+            <sys_package display_value="poc_training" source="x_550277_poc_train">676293b02fa320105e4e2d5df699b6b8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_804476fb2f2720105e4e2d5df699b6ec_current_ja</sys_update_name>
+            <sys_updated_by>dev057221</sys_updated_by>
+            <sys_updated_on>2021-04-23 07:45:16</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

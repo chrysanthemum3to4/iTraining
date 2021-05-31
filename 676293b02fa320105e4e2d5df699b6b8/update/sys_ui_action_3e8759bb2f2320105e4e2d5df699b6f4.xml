@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>回答依頼発信</action_name>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition>current.getValue('state') === '2'</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <hint>回答依頼を発信し、回答タスクを作成します。</hint>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>回答依頼発信</name>
+        <onclick/>
+        <order>110</order>
+        <script><![CDATA[var flag = current.getValue('u_boolean_1'); //回答依頼発信フラグ
+
+//回答依頼発信フラグが'1'(true)の場合
+if (flag === '1'){
+	
+	//発信済みメッセージ出力
+	gs.addInfoMessage('回答依頼:' + current.getValue('number') + 'は発信済みです。');
+	
+}else{
+	//レコード更新
+	current.setValue('u_boolean_1','true'); //回答依頼発信フラグ
+
+	var today = new Date(); //※アメリカタイムゾーン_太平洋時間
+	today.setTime(today.getTime() + 1000*60*60*16); // JSTに変換 16時間+
+	current.setValue('u_glide_date_2',today.getFullYear() + "-" + (today.getMonth()+1) + "-"+ today.getDate()); //回答依頼発信日
+
+	current.update(); //更新
+
+	//時・分・秒を取得する
+	var hour = today.getHours();
+	var minute = today.getMinutes();
+	var second = today.getSeconds();
+
+	//gs.addInfoMessage("発信時刻：" + today.getFullYear() + "/" +  (today.getMonth()+1) + "/"+ today.getDate() + " " + hour+"時"+minute+"分"+second+"秒");
+	//発信メッセージ出力
+	gs.addInfoMessage('回答依頼:' + current.getValue('number') + 'を発信しました。');
+}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-23 01:21:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3e8759bb2f2320105e4e2d5df699b6f4</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>回答依頼発信</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="poc_training" source="x_550277_poc_train">676293b02fa320105e4e2d5df699b6b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
+        <sys_update_name>sys_ui_action_3e8759bb2f2320105e4e2d5df699b6f4</sys_update_name>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-05-19 09:46:10</sys_updated_on>
+        <table>x_550277_poc_train_kaitouyouken</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_550277_poc_train.GetUserInfo</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>回答者グループリストに設定されたグループを基に、グループメンバーに紐づくユーザー情報を返却する。</description>
+        <name>GetUserInfo</name>
+        <script><![CDATA[var GetUserInfo = Class.create();
+GetUserInfo.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	getUserNameAndEmpNo: function() {
+
+		//gs.addInfoMessage('入力パラメータ：' + this.getParameter('sysparm'));
+		var parm = this.getParameter('sysparm');
+		
+		//文字列を分割して配列化する
+		var Array1 = []; 
+		Array1 = parm.split(','); //「, (カンマ)」で区切って分割する
+		//gs.addInfoMessage('Array1_設定内容:' + Array1);
+		//gs.addInfoMessage('Array1_length:' + Array1.length);
+		
+		//配列の要素の値が空でない場合
+		if (Array1[0] || ''){
+			//ループ処理(子グループ取得)
+			Array1.forEach(function(value){	
+				//gs.addInfoMessage('value:' + value);
+				//グループ
+				var instance1 = new GlideRecord('sys_user_group'); //指定されたテーブルのGlideRecordクラスのインスタンスを作成
+
+				//フィールドが指定された条件（フィールド、演算子、値）を満たすレコードを返すフィルターを追加します。
+				instance1.addQuery('parent',value); //取得したSysIDを親に持っているグループ
+				instance1.query(); //クエリ実行
+
+				while (instance1.next()) {  //結果レコードをループ
+					//gs.addInfoMessage("子グループ名：" + instance1.name);
+
+					//子グループを配列に追加
+					Array1.push(instance1.sys_id + ''); //※空文字を入れないとなぜか同じ配列値で設定されるため注意
+				}
+			});
+		}
+		
+		//gs.addInfoMessage('Array1_設定内容(子グループ込み):' + Array1);
+		
+		var Array = []; //結果を保管する配列
+		
+		//ループ処理
+		Array1.forEach(function(value){
+			
+			//グループメンバー
+			var instance = new GlideRecord('sys_user_grmember'); //指定されたテーブルのGlideRecordクラスのインスタンスを作成
+
+			//フィールドが指定された条件（フィールド、演算子、値）を満たすレコードを返すフィルターを追加します。
+			instance.addQuery('group',value); //グループが取得したSysIDと一致するもの
+			instance.query(); //クエリ実行
+			//gs.addInfoMessage('グループメンバー取得件数：' + instance.getRowCount());
+
+			while (instance.next()) {                     //結果レコードをループ
+				//ユーザーを配列に追加
+				Array.push(instance.user + ''); //※空文字を入れないとなぜか同じ配列値で設定されるため注意
+			}
+			
+		});
+		
+		//gs.addInfoMessage('戻り値Array：' + Array);
+		return Array.join(',').toString(); //配列をコンマ区切り文字列に変換	
+		
+    },
+    type: 'GetUserInfo'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-04-22 01:13:32</sys_created_on>
+        <sys_id>142e88eb2f2320105e4e2d5df699b620</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>GetUserInfo</sys_name>
+        <sys_package display_value="poc_training" source="x_550277_poc_train">676293b02fa320105e4e2d5df699b6b8</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
+        <sys_update_name>sys_script_include_142e88eb2f2320105e4e2d5df699b620</sys_update_name>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-04-22 01:35:19</sys_updated_on>
+    </sys_script_include>
+</record_update>

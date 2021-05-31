@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="e494ed272f2720105e4e2d5df699b6f1" sys_domain="global" table="x_550277_poc_train_approval_history" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>kaitouyouken</element>
+            <position>0</position>
+            <sys_created_by>dev057221</sys_created_by>
+            <sys_created_on>2021-05-24 10:32:22</sys_created_on>
+            <sys_id>56c3c7fd2f543010f1f23e0ef699b697</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_550277_poc_train_approval_history" sys_domain="global" view="Default view">e494ed272f2720105e4e2d5df699b6f1</sys_ui_section>
+            <sys_updated_by>dev057221</sys_updated_by>
+            <sys_updated_on>2021-05-24 10:32:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>kaitou_task</element>
+            <position>1</position>
+            <sys_created_by>dev057221</sys_created_by>
+            <sys_created_on>2021-05-24 10:32:22</sys_created_on>
+            <sys_id>d6c3c7fd2f543010f1f23e0ef699b697</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_550277_poc_train_approval_history" sys_domain="global" view="Default view">e494ed272f2720105e4e2d5df699b6f1</sys_ui_section>
+            <sys_updated_by>dev057221</sys_updated_by>
+            <sys_updated_on>2021-05-24 10:32:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>kaitousya</element>
+            <position>2</position>
+            <sys_created_by>dev057221</sys_created_by>
+            <sys_created_on>2021-05-24 10:32:22</sys_created_on>
+            <sys_id>5ac3c7fd2f543010f1f23e0ef699b697</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_550277_poc_train_approval_history" sys_domain="global" view="Default view">e494ed272f2720105e4e2d5df699b6f1</sys_ui_section>
+            <sys_updated_by>dev057221</sys_updated_by>
+            <sys_updated_on>2021-05-24 10:32:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>process_datetime</element>
+            <position>3</position>
+            <sys_created_by>dev057221</sys_created_by>
+            <sys_created_on>2021-05-24 10:32:22</sys_created_on>
+            <sys_id>dac3c7fd2f543010f1f23e0ef699b697</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_550277_poc_train_approval_history" sys_domain="global" view="Default view">e494ed272f2720105e4e2d5df699b6f1</sys_ui_section>
+            <sys_updated_by>dev057221</sys_updated_by>
+            <sys_updated_on>2021-05-24 10:32:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>node_name</element>
+            <position>4</position>
+            <sys_created_by>dev057221</sys_created_by>
+            <sys_created_on>2021-05-24 10:32:22</sys_created_on>
+            <sys_id>5ec3c7fd2f543010f1f23e0ef699b697</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_550277_poc_train_approval_history" sys_domain="global" view="Default view">e494ed272f2720105e4e2d5df699b6f1</sys_ui_section>
+            <sys_updated_by>dev057221</sys_updated_by>
+            <sys_updated_on>2021-05-24 10:32:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>dev057221</sys_created_by>
+            <sys_created_on>2021-05-24 10:32:22</sys_created_on>
+            <sys_id>dec3c7fd2f543010f1f23e0ef699b697</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_550277_poc_train_approval_history" sys_domain="global" view="Default view">e494ed272f2720105e4e2d5df699b6f1</sys_ui_section>
+            <sys_updated_by>dev057221</sys_updated_by>
+            <sys_updated_on>2021-05-24 10:32:22</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>6</position>
+            <sys_created_by>dev057221</sys_created_by>
+            <sys_created_on>2021-05-24 10:32:22</sys_created_on>
+            <sys_id>52c3c7fd2f543010f1f23e0ef699b698</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_550277_poc_train_approval_history" sys_domain="global" view="Default view">e494ed272f2720105e4e2d5df699b6f1</sys_ui_section>
+            <sys_updated_by>dev057221</sys_updated_by>
+            <sys_updated_on>2021-05-24 10:32:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>processor</element>
+            <position>7</position>
+            <sys_created_by>dev057221</sys_created_by>
+            <sys_created_on>2021-05-24 10:32:22</sys_created_on>
+            <sys_id>d2c3c7fd2f543010f1f23e0ef699b698</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_550277_poc_train_approval_history" sys_domain="global" view="Default view">e494ed272f2720105e4e2d5df699b6f1</sys_ui_section>
+            <sys_updated_by>dev057221</sys_updated_by>
+            <sys_updated_on>2021-05-24 10:32:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>agent</element>
+            <position>8</position>
+            <sys_created_by>dev057221</sys_created_by>
+            <sys_created_on>2021-05-24 10:32:22</sys_created_on>
+            <sys_id>56c3c7fd2f543010f1f23e0ef699b698</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_550277_poc_train_approval_history" sys_domain="global" view="Default view">e494ed272f2720105e4e2d5df699b6f1</sys_ui_section>
+            <sys_updated_by>dev057221</sys_updated_by>
+            <sys_updated_on>2021-05-24 10:32:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>organization_in_charge</element>
+            <position>9</position>
+            <sys_created_by>dev057221</sys_created_by>
+            <sys_created_on>2021-05-24 10:32:22</sys_created_on>
+            <sys_id>d6c3c7fd2f543010f1f23e0ef699b698</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_550277_poc_train_approval_history" sys_domain="global" view="Default view">e494ed272f2720105e4e2d5df699b6f1</sys_ui_section>
+            <sys_updated_by>dev057221</sys_updated_by>
+            <sys_updated_on>2021-05-24 10:32:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>send_back_ptn</element>
+            <position>10</position>
+            <sys_created_by>dev057221</sys_created_by>
+            <sys_created_on>2021-05-24 10:32:22</sys_created_on>
+            <sys_id>5ac3c7fd2f543010f1f23e0ef699b698</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_550277_poc_train_approval_history" sys_domain="global" view="Default view">e494ed272f2720105e4e2d5df699b6f1</sys_ui_section>
+            <sys_updated_by>dev057221</sys_updated_by>
+            <sys_updated_on>2021-05-24 10:32:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_string_2</element>
+            <position>11</position>
+            <sys_created_by>dev057221</sys_created_by>
+            <sys_created_on>2021-05-24 10:32:22</sys_created_on>
+            <sys_id>dac3c7fd2f543010f1f23e0ef699b698</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_550277_poc_train_approval_history" sys_domain="global" view="Default view">e494ed272f2720105e4e2d5df699b6f1</sys_ui_section>
+            <sys_updated_by>dev057221</sys_updated_by>
+            <sys_updated_on>2021-05-24 10:32:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_550277_poc_train_approval_history</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>dev057221</sys_created_by>
+            <sys_created_on>2021-04-22 07:18:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e494ed272f2720105e4e2d5df699b6f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_550277_poc_train_approval_history</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="poc_training" source="x_550277_poc_train">676293b02fa320105e4e2d5df699b6b8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
+            <sys_update_name>sys_ui_section_e494ed272f2720105e4e2d5df699b6f1</sys_update_name>
+            <sys_updated_by>dev057221</sys_updated_by>
+            <sys_updated_on>2021-04-22 07:18:39</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="デフォルトビュー" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

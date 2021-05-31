@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="督促条件" section_id="bf1b54c12fa720105e4e2d5df699b666" sys_domain="global" table="x_550277_poc_train_kaitouyouken" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>dev057221</sys_created_by>
+            <sys_created_on>2021-05-24 02:40:35</sys_created_on>
+            <sys_id>93c79df92f503010f1f23e0ef699b6b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dev057221</sys_updated_by>
+            <sys_updated_on>2021-05-24 02:40:35</sys_updated_on>
+            <text>※回答期限到来後の督促は”督促メール送信ボタン”よりお願いします。</text>
+            <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mail_body</element>
+            <position>0</position>
+            <sys_created_by>dev057221</sys_created_by>
+            <sys_created_on>2021-05-24 02:40:35</sys_created_on>
+            <sys_id>5bc79df92f503010f1f23e0ef699b6ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="督促条件" display_value="督促条件" name="x_550277_poc_train_kaitouyouken" sys_domain="global" view="Default view">bf1b54c12fa720105e4e2d5df699b666</sys_ui_section>
+            <sys_updated_by>dev057221</sys_updated_by>
+            <sys_updated_on>2021-05-24 02:40:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tokusokujouken</element>
+            <position>1</position>
+            <sys_created_by>dev057221</sys_created_by>
+            <sys_created_on>2021-05-24 02:40:35</sys_created_on>
+            <sys_id>dbc79df92f503010f1f23e0ef699b6ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="督促条件" display_value="督促条件" name="x_550277_poc_train_kaitouyouken" sys_domain="global" view="Default view">bf1b54c12fa720105e4e2d5df699b666</sys_ui_section>
+            <sys_updated_by>dev057221</sys_updated_by>
+            <sys_updated_on>2021-05-24 02:40:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>93c79df92f503010f1f23e0ef699b6b8</element>
+            <position>2</position>
+            <sys_created_by>dev057221</sys_created_by>
+            <sys_created_on>2021-05-24 02:40:35</sys_created_on>
+            <sys_id>5fc79df92f503010f1f23e0ef699b6ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="督促条件" display_value="督促条件" name="x_550277_poc_train_kaitouyouken" sys_domain="global" view="Default view">bf1b54c12fa720105e4e2d5df699b666</sys_ui_section>
+            <sys_updated_by>dev057221</sys_updated_by>
+            <sys_updated_on>2021-05-24 02:40:35</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>督促条件</caption>
+            <header>false</header>
+            <name>x_550277_poc_train_kaitouyouken</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-04-14 07:32:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bf1b54c12fa720105e4e2d5df699b666</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>x_550277_poc_train_kaitouyouken</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="poc_training" source="x_550277_poc_train">676293b02fa320105e4e2d5df699b6b8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
+            <sys_update_name>sys_ui_section_bf1b54c12fa720105e4e2d5df699b666</sys_update_name>
+            <sys_updated_by>dev057221</sys_updated_by>
+            <sys_updated_on>2021-04-22 02:34:57</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="デフォルトビュー" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

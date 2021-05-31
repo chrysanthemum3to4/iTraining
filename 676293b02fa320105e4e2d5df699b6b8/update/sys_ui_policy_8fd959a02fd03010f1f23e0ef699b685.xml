@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_550277_poc_train_kaitou_task">state=1^ORstate=9^EQ<item display_value="起票中" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="1"/>
+            <item display_value="取下" endquery="false" field="state" goto="false" newquery="false" operator="=" or="true" value="9"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+	//「回答提出」ボタンを非表示
+	$$('button[id=ans_propose').each(function(elmt) {elmt.style.display = 'none';});
+	$$('button[id=ans_propose_bottom').each(function(elmt) {elmt.style.display = 'none';});
+	
+	var stnum = parseInt( g_form.getValue('state'));  //ステータス値
+	if (stnum == '6') {
+		//ステータスが6（完了）の時は「承認」ボタンも非表示にする
+		$$('button[id=btn_approval').each(function(elmt) {elmt.style.display = 'none';});
+		$$('button[id=btn_approval_bottom').each(function(elmt) {elmt.style.display = 'none';});
+	}
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+		//「承認」ボタンを非表示
+	$$('button[id=btn_approval').each(function(elmt) {elmt.style.display = 'none';});
+	$$('button[id=btn_approval_bottom').each(function(elmt) {elmt.style.display = 'none';});
+	
+}]]></script_true>
+        <set_values/>
+        <short_description>回答タスク_回答提出_表示制御</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>dev057221</sys_created_by>
+        <sys_created_on>2021-05-20 05:41:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8fd959a02fd03010f1f23e0ef699b685</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>回答タスク_回答提出_表示制御</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="poc_training" source="x_550277_poc_train">676293b02fa320105e4e2d5df699b6b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="poc_training">676293b02fa320105e4e2d5df699b6b8</sys_scope>
+        <sys_update_name>sys_ui_policy_8fd959a02fd03010f1f23e0ef699b685</sys_update_name>
+        <sys_updated_by>dev057221</sys_updated_by>
+        <sys_updated_on>2021-05-20 05:41:17</sys_updated_on>
+        <table>x_550277_poc_train_kaitou_task</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>
